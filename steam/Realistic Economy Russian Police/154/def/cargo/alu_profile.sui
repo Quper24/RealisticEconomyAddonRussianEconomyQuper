@@ -1,0 +1,12 @@
+cargo_data: cargo.alu_profile
+{
+	name: "@@cn_alu_profiles@@"
+	fragility: 0.15
+	group[]: construction
+	volume: 24.99
+	mass: 8000
+	unit_reward_per_km: 6.6
+	unit_load_time: 750
+	body_types[]: flatbed
+	body_types[]: flatbed_cont
+}

@@ -1,0 +1,66 @@
+country_data : country.data.russia
+{
+	country_id: 38
+
+	name: "Россия"
+	name_localized: "@@Russia@@"
+	country_code: "RU"
+	iso_country_code: rus
+
+	pos: (100000, 0, -44500)
+
+	fuel_price: 0.68
+
+	lights_mandatory: true
+	driving_tired_offence: true
+
+	time_zone: 180		# +3 hours in minutes
+	time_zone_name: "@@tz_msk@@"
+
+	# kaliningrad area, EET, +2 hours
+	secondary_time_zone_area[]: (32352.0, 41872.0, -26082.0, -20383.0)
+	secondary_time_zone[]: 120
+	secondary_time_zone_name[]: "@@tz_eet@@"
+	# saratov area, MSK+1, +4 hours
+	secondary_time_zone_area[]: (116000.0, 140000.0, -33000.0, -24300.0)
+	secondary_time_zone[]: 240
+	secondary_time_zone_name[]: "MSK+1"
+	# Ulyanovsk, Samara area, SAMT (MSK+1), +4 hours
+	secondary_time_zone_area[]: (129000.0, 139500.0, -55000.0, -35000.0)
+	secondary_time_zone[]: 240
+	secondary_time_zone_name[]: "@@tz_samt@@"
+
+	# Yekaterinburg Time (YEKT), UTC +5 hours от Илек до Актобе
+	secondary_time_zone_area[]: (144500.0, 155000.0, -100000.0, -38000.0)
+	secondary_time_zone[]: 300
+	secondary_time_zone_name[]: "@@tz_yekt@@"
+	# Yekaterinburg Time (YEKT), UTC +5 hours от Актобе до Орска
+	secondary_time_zone_area[]: (155000.0, 160000.0, -100000.0, -44500.0)
+	secondary_time_zone[]: 300
+	secondary_time_zone_name[]: "@@tz_yekt@@"
+	# Yekaterinburg Time (YEKT), UTC +5 hours от Магнитки до ВерхУрал
+	secondary_time_zone_area[]: (160000.0, 161000.0, -100000.0, -62500.0)
+	secondary_time_zone[]: 300
+	secondary_time_zone_name[]: "@@tz_yekt@@"
+	# Yekaterinburg Time (YEKT), UTC +5 hours от ВерхУрал до Троицка
+#	secondary_time_zone_area[]: (161000.0, 162715.0, -100000.0, -65200.0)
+	secondary_time_zone_area[]: (161000.0, 162731.0, -100000.0, -65633.0)
+	secondary_time_zone[]: 300
+	secondary_time_zone_name[]: "@@tz_yekt@@"
+	# Yekaterinburg Time (YEKT), UTC +5 hours от Троицка в право )
+#	secondary_time_zone_area[]: (162715.0, 175000.0, -100000.0, -65865.0)
+	secondary_time_zone_area[]: (162731.0, 175000.0, -100000.0, -70000.0)
+	secondary_time_zone[]: 300
+	secondary_time_zone_name[]: "@@tz_yekt@@"
+
+	# Yekaterinburg Time (YEKT), UTC +5 hours от Акъяра до Орска
+	secondary_time_zone_area[]: (158000.0, 165000.0, -50000.0, -46146.0)
+	secondary_time_zone[]: 300
+	secondary_time_zone_name[]: "@@tz_yekt@@"
+
+	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
+	mass_limit_per_axle_count[]: 25000
+	mass_limit_per_axle_count[]: 36000
+	mass_limit_per_axle_count[]: 40000
+	mass_limit_per_axle_count[]: 44000
+}

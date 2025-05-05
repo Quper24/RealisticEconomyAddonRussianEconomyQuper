@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.helsinki.korsakov{
+	price: 351
+	time: 10351
+	distance: 6900
+}
+
+}
+

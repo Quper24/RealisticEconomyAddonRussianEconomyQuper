@@ -1,0 +1,66 @@
+SiiNunit
+{
+localization_db : .localization
+{
+        key[]: "Aleysk"
+        val[]: "Алейск"
+		
+        key[]: "Barnaul"
+        val[]: "Барнаул"
+		
+        key[]: "Belokurikha"
+        val[]: "Белокуриха"
+		
+        key[]: "Berdsk"
+        val[]: "Бердск"
+
+        key[]: "Biysk"
+        val[]: "Бийск"
+		
+	key[]: "Bochkaria"
+        val[]: "Бочкари"
+		
+	key[]: "Bukanskoye"
+        val[]: "Буканское"
+		
+	key[]: "Cherepanovo"
+        val[]: "Черепановский"
+		
+	key[]: "Tselinnoye"
+        val[]: "Целинное"
+		
+	key[]: "Gorno-Altaysk"
+        val[]: "Горно-Алтайск"
+		
+	key[]: "Kuibyshevo"
+        val[]: "Куйбышево"
+		
+	key[]: "Kytmanovo"
+	val[]: "Кытманово"
+		
+	key[]: "Linevo"
+	val[]: "Линёвский"
+		
+	key[]: "Mamontovo"
+	val[]: "Мамонтово"
+		
+	key[]: "Martynovo"
+	val[]: "Мартыново"
+		
+	key[]: "Novoaltaysk"
+	val[]: "Новоалтайск"
+		
+	key[]: "Rubtsovsk"
+	val[]: "Рубцовск"
+		
+	key[]: "Smolenskoye"
+	val[]: "Смоленское"
+		
+	key[]: "Talmenka"
+        val[]: "Тальменка"
+		
+	key[]: "Zarinsk"
+        val[]: "Заринск"
+}
+
+}

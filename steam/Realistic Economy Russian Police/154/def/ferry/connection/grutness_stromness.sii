@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.grutness.stromness {
+	price: 12
+	time: 203
+	distance: 135
+
+}
+}
+

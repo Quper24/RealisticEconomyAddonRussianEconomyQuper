@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.novorossiysk.samsun{
+	price: 28
+	time: 685
+	distance: 456
+
+}
+}
+

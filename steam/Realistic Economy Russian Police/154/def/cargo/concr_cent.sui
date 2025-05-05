@@ -1,0 +1,12 @@
+cargo_data: cargo.concr_cent
+{
+	name: "@@cn_concr_centering@@"
+	fragility: 0.15
+	group[]: construction
+	volume: 4
+	mass: 950
+	unit_reward_per_km: 0.9
+	unit_load_time: 120
+	body_types[]: flatbed
+	body_types[]: flatbed_cont
+}

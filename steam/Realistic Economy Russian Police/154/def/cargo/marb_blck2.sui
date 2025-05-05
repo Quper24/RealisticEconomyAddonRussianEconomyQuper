@@ -1,0 +1,12 @@
+cargo_data: cargo.marb_blck2
+{
+	name: "@@cn_marble_block@@"
+	fragility: 0.15
+	group[]: construction
+	volume: 16.96
+	mass: 10500
+	unit_reward_per_km: 9
+	unit_load_time: 500
+	body_types[]: flatbed
+	body_types[]: flatbed_cont
+}

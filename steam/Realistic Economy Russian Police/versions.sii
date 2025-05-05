@@ -1,0 +1,15 @@
+SiiNunit
+{ 
+
+  package_version_info : .154 
+  {
+    package_name: "154"
+    compatible_versions[]: "1.54.*"
+  }
+
+    package_version_info : .info 
+  {
+    package_name: "info"
+    informational: false
+  }
+}

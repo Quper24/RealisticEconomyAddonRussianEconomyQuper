@@ -1,0 +1,11 @@
+cargo_data: cargo.yacht
+{
+	name: "@@cn_yacht@@"
+	valuable: true
+	group[]: machinery
+	volume: 50
+	mass: 6500
+	unit_reward_per_km: 23.613
+	unit_load_time: 2400
+	body_types[]: lowbed
+}

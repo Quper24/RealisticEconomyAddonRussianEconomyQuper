@@ -1,0 +1,13 @@
+cargo_data: cargo.train_part2
+{
+	name: "@@cn_train_part2@@"
+	fragility: 0.6
+	valuable: true
+	group[]: machinery
+	volume: 24.4
+	mass: 6300
+	unit_reward_per_km: 5.61
+	unit_load_time: 750
+	body_types[]: flatbed
+	body_types[]: flatbed_cont
+}

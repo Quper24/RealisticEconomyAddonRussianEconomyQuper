@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.antirrio.rio {
+	price: 6
+	time: 8
+	distance: 5
+}
+}

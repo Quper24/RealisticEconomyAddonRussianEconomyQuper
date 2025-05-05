@@ -1,0 +1,14 @@
+cargo_data: cargo.straw_bales
+{
+	name: "@@cn_straw_bales@@"
+	fragility: 0.2
+	group[]: containers
+	volume: 14
+	mass: 1300
+	unit_reward_per_km: 1.2
+	unit_load_time: 400
+	body_types[]: curtainside
+	body_types[]: dryvan
+	body_types[]: flatbed
+	body_types[]: flatbed_cont
+}

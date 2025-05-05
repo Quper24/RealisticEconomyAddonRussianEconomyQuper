@@ -1,0 +1,25 @@
+SiiNunit
+{
+ferry_connection : conn.mersin.iskenderun{
+	price: 14
+	time: 248
+	distance: 165
+
+	# NODE POSITIONS #######   x*256  , 0,  z*256
+	connection_positions[0]: (27061760, 0, 16803200)
+	connection_positions[1]: (27065344, 0, 16847052)
+	connection_positions[2]: (27770112, 0, 17088974)
+	connection_positions[3]: (28704512, 0, 16602138)
+	connection_positions[4]: (28811520, 0, 16522830)
+	connection_positions[5]: (28872192, 0, 16575720)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (-0.70711, 0,  0.70711)
+	connection_directions[1]: ( 0.86603, 0,  0.5    )
+	connection_directions[2]: ( 0.99619, 0, -0.08716)
+	connection_directions[3]: ( 0.76604, 0, -0.64279)
+	connection_directions[4]: ( 1,       0,  0      )
+	connection_directions[5]: ( 0.17365, 0,  0.98481)
+}
+}
+
