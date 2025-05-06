@@ -72,7 +72,7 @@ economy_data : economy.data.storage
 #
 # AI driver related configuration
 #
-	fuel_cost_per_km: (0.4, 0.6)		# for driver simulation
+	fuel_cost_per_km: (0.3, 0.5)		# for driver simulation
 	driver_max_cargo_damage: 0.30		# in %, decrease with skill
 	driver_maintenance_cost: (0.02, 0.04) 	# maintenance + insurance, base range in E/km
 	minimal_driver_salary:	75		# fixed part of driver's pay
@@ -146,31 +146,31 @@ economy_data : economy.data.storage
 #  Experience points
 	free_roam_report_limit: 100
 
-	exp_cargo_delivery: 	1			# per km of real world 
+	exp_cargo_delivery: 	1.5			# per km of real world 
 	exp_free_roam: 		0.5			# per km of real world 
-	exp_road_discovery:	0.8			# per km of real world 
+	exp_road_discovery:	1			# per km of real world 
 
 //	exp_late_delivery: 	0.4		# -40% 	
-	exp_perfect_delivery: 	0.24		# +24% 	
-	exp_adr_bonus:		0.21		# +21%	of total cargo delivery exp. points
-	exp_important_bonus:	0.2		# +20%
+	exp_perfect_delivery: 	0.3		# +30% 	
+	exp_adr_bonus:		0.4		# +40%	of total cargo delivery exp. points
+	exp_important_bonus:	0.3		# +30%
 	exp_urgent_bonus:	0.3		# +30%
-	exp_fragile_bonus:	0.22		# +22%
-	exp_long_dist_bonus:	0.25		# +25%
-	exp_valuable_bonus:	0.18		# +18%
+	exp_fragile_bonus:	0.3		# +30%
+	exp_long_dist_bonus:	0.3		# +30%
+	exp_valuable_bonus:	0.25		# +25%
 
 	exp_park_bonus: 15			# bonus for not using the autopark feature on EASY parking spot
-	exp_park_bonus_medium: 30		# bonus for not using the autopark feature on MEDIUM parking spot
-	exp_park_bonus_hard: 60			# bonus for not using the autopark feature on HARD parking spot
+	exp_park_bonus_medium: 40		# bonus for not using the autopark feature on MEDIUM parking spot
+	exp_park_bonus_hard: 80			# bonus for not using the autopark feature on HARD parking spot
 
 	exp_park_double_bonus: 20		# bonus for not using the autopark feature on EASY parking spot with double
-	exp_park_double_bonus_medium: 50	# bonus for not using the autopark feature on MEDIUM parking spot with double
-	exp_park_double_bonus_hard: 100		# bonus for not using the autopark feature on HARD parking spot with double
+	exp_park_double_bonus_medium: 60	# bonus for not using the autopark feature on MEDIUM parking spot with double
+	exp_park_double_bonus_hard: 120		# bonus for not using the autopark feature on HARD parking spot with double
 
-	exp_park_load_bonus: 20		# exp bonus for manually parking trailer during loading phase of the job
+	exp_park_load_bonus: 40		# exp bonus for manually parking trailer during loading phase of the job
 
-	exp_damaged_cargo:	5		# -5 XP per 1% of cargo damage
-	exp_damaged_cargo_factor: 0.04		# -4% of total XP per 1% of cargo damage
+	exp_damaged_cargo:	3		# -3 XP per 1% of cargo damage
+	exp_damaged_cargo_factor: 0.02		# -2% of total XP per 1% of cargo damage
 
 
 	adr_info_icon[]:	"1|/material/ui/icon/adr_1.mat"
