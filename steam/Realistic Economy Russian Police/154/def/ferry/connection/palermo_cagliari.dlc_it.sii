@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.palermo.cagliari {
-	price: 22
-	time: 500
-	distance: 333
-}
-}
-

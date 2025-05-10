@@ -6,11 +6,11 @@ SiiNunit
         jobs_before_company_invitation: 10
         
         level_for_credit_raise[]: 0
-        credit_limit[]: 10000
+        credit_limit[]: 5000
         level_for_credit_raise[]: 3
-        credit_limit[]: 20000
+        credit_limit[]: 10000
         level_for_credit_raise[]: 5
-        credit_limit[]: 30000
+        credit_limit[]: 25000
         level_for_credit_raise[]: 8
         credit_limit[]: 50000
         level_for_credit_raise[]: 10

@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.kuah.satun {
-	price: 7
-	time: 34
-	distance: 22
-}
-}

@@ -9,7 +9,7 @@ country_data : country.data.russia
 
 	pos: (100000, 0, -44500)
 
-	fuel_price: 0.759
+	fuel_price: 0.68
 
 	lights_mandatory: true
 	driving_tired_offence: true

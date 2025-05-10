@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.tunnel_t.tunnel_r {
-	price: 11
-	time: 157
-	distance: 104
-}
-}
-

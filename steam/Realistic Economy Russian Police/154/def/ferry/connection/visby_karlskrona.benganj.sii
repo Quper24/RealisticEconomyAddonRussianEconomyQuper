@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.bjvisby.karlskrona {
-	price: 21
-	time: 470
-	distance: 313
-}
-}
-

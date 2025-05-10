@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.bangao.daru {
-	price: 186
-	time: 5401
-	distance: 3600
-}
-}

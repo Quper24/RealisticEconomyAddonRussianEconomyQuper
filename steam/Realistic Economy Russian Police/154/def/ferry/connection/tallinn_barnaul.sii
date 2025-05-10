@@ -1,7 +1,0 @@
-SiiNunit{
-  ferry_connection : conn.tallinn.barnaul {
-	price: 239
-	time: 6998
-	distance: 4665
-}
-}

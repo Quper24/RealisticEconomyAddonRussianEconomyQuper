@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.nynashamn.ventspils {
-	price: 18
-	time: 368
-	distance: 245
-}
-}

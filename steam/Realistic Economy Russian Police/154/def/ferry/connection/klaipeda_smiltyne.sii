@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.klaipeda.smiltyne{
-	price: 6
-	time: 2
-	distance: 1
-}
-}
-

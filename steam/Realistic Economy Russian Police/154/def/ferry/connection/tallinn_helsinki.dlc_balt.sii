@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.tallinn.helsinki {
-	price: 8
-	time: 86
-	distance: 57
-}
-}

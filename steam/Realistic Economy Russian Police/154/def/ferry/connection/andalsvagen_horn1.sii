@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.andalsvagen.horn1 {
-	price: 6
-	time: 8
-	distance: 5
-
-}
-}

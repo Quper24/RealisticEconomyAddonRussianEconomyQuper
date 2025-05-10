@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.lapseki.gallipoli{
-	price: 6
-	time: 7
-	distance: 4
-}
-}
-

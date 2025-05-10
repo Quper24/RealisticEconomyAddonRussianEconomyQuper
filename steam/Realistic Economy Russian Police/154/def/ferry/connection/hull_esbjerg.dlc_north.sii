@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.hull.esbjerg {
-	price: 36
-	time: 923
-	distance: 615
-}
-}
-

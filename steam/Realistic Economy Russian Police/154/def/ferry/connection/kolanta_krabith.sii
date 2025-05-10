@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.kolanta.krabith {
-	price: 6
-	time: 4
-	distance: 2
-}
-}

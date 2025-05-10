@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.nampo.daliankpr {
-	price: 31
-	time: 751
-	distance: 500
-}
-}

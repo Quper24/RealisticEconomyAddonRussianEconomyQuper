@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.plymouth.roscoff {
-	price: 14
-	time: 245
-	distance: 163
-}
-}
-

@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.novorossiysk.messina{
-	price: 123
-	time: 3526
-	distance: 2350
-}
-}
-

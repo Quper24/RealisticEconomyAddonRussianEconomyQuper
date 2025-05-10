@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.samsun.poti{
-	price: 23
-	time: 535
-	distance: 356
-}
-}

@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.stjons.plymouth {
-	price: 228
-	time: 6674
-	distance: 4449
-}
-}
-

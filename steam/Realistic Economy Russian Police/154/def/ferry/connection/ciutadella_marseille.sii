@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.ciutadella.marseille {
-	price: 22
-	time: 491
-	distance: 327
-}
-}

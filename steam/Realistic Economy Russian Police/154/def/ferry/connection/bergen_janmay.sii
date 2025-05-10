@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.bergen.janmay {
-	price: 65
-	time: 1789
-	distance: 1192
-}
-}
-

@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.sematan.bangao {
-	price: 44
-	time: 1166
-	distance: 777
-}
-}

@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.izmir.mitilini {
-	price: 11
-	time: 151
-	distance: 100
-}
-}

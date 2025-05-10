@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.klang.jakarta {
-	price: 65
-	time: 1781
-	distance: 1187
-}
-}

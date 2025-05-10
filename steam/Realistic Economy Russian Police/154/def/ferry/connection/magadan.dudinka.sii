@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.magadan.dudinka {
-	price: 152
-	time: 4393
-	distance: 2928
-}
-}
-

@@ -4,7 +4,7 @@ mod_package : .package_name
 {
 
 	# Package version can be any string with any length.
-	package_version: "1.54.8"
+	package_version: "1.54.2"
 
 	# Display name can be any string with any length.
 
