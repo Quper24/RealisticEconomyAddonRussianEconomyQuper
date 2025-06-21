@@ -1,28 +1,28 @@
 SiiNunit
 {
-mod_package : .package_name
-{
+	mod_package : .package_name
+	{
 
-	# Package version can be any string with any length.
-	package_version: "1.54.2"
+		# Package version can be any string with any length.
+		package_version: "1.54.3"
 
-	# Display name can be any string with any length.
-	display_name: "Realistic Economy addon Russia Economy by Quper"
+		# Display name can be any string with any length.
+		display_name: "Realistic Economy addon Russia Economy by Quper"
 
-	# Author can be any string with any length.
-	author: "Quper"
+		# Author can be any string with any length.
+		author: "Quper"
 
-  compatible_versions[]: "1.54.*"
+		compatible_versions[]: "1.54.*"
 
-	# Categories is an array of strings.
-	category[]: "economy"
-	category[]: "other"
-                                
-	# Icon inside the root directory of the mod.
-	icon: "image.jpg"
+		# Categories is an array of strings.
+		category[]: "economy"
+		category[]: "other"
 
-	# Description file inside the root directory of the mod.
-	description_file: "description.txt"
+		# Icon inside the root directory of the mod.
+		icon: "image.jpg"
 
-}
+		# Description file inside the root directory of the mod.
+		description_file: "description.txt"
+
+	}
 }
