@@ -7,9 +7,8 @@ SiiNunit
 		compatible_versions[]: "1.54.*"
 	}
 
-	package_version_info : .info
+	package_version_info : .universal
 	{
-		package_name: "info"
-		informational: false
+		package_name: "universal"
 	}
 }

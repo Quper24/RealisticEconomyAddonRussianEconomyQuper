@@ -9,7 +9,7 @@ country_data : country.data.russia
 
 	pos: (100000, 0, -44500)
 
-	fuel_price: 0.68
+	fuel_price: 0.71
 	lights_mandatory: true
 	driving_tired_offence: true
 
@@ -20,7 +20,7 @@ country_data : country.data.russia
 	secondary_time_zone_area[]: (32352.0, 41872.0, -26082.0, -20383.0)
 	secondary_time_zone[]: 120
 	secondary_time_zone_name[]: "KALT"
-	
+
 	# Saratov area 1, SAMT, +4 hours
 	secondary_time_zone_area[]: (114125.0, 121900.0, -32500.0, -23335.0)
 	secondary_time_zone[]: 240
@@ -76,7 +76,7 @@ country_data : country.data.russia
 	secondary_time_zone_area[]: (174621.0, 192880.0, -107200.0, -87542.0)
 	secondary_time_zone[]: 360
 	secondary_time_zone_name[]: "OMST"
-	
+
 	# Krasnoyarsk Time (KRAT), UTC +7 hours от Бердск до Горно-Алтайск
 	secondary_time_zone_area[]: (208500.0, 230600.0, -120800.0, -101500.0)
 	secondary_time_zone[]: 420
