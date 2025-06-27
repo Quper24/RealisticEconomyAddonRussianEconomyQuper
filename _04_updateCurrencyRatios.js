@@ -32,11 +32,11 @@ const CURRENCIES_TO_UPDATE = [
   "CNY",
 ];
 
-let EUR =
-  // --- Загрузка данных из файла ---
-  function readFile() {
-    return fs.readFileSync(FILE_PATH, "utf-8");
-  };
+const FIX_COEF = 1.0895619960775769;
+// --- Загрузка данных из файла ---
+function readFile() {
+  return fs.readFileSync(FILE_PATH, "utf-8");
+}
 
 // --- Парсинг валют из содержимого файла ---
 function parseCurrencies(content) {
@@ -59,6 +59,7 @@ function parseCurrencies(content) {
       const ratio = ratioMatch ? parseFloat(ratioMatch[1]) : 1;
 
       result.push({ code, ratio, start: i, end: i + 1 });
+      console.log(`Код валюты: ${code}, Коэффициент: ${ratio}`);
       i += 2;
     } else {
       i++;
@@ -92,12 +93,17 @@ function updateContent(content, currencyData, latestRates) {
 
   for (const entry of currencyData) {
     const { code, start } = entry;
-    const rate = latestRates[code];
-
-    if (rate !== undefined) {
-      const roundedRate = rate.toFixed(2);
-      lines[start + 1] = `	currency_ratio[]: ${roundedRate}`;
+    let rate = latestRates[code];
+    console.log(`Код валюты: ${code}, Коэффициент: ${rate}`);
+    if (code === "RUB") {
+      rate = 100;
+    } else {
+      rate = (FIX_COEF * latestRates[code]).toFixed(2);
     }
+    if (rate !== undefined) {
+      lines[start + 1] = `	currency_ratio[]: ${rate}`;
+    }
+    console.log(`Код валюты: ${code}, Коэффициент: ${rate}`);
   }
 
   return lines.join("\n");
