@@ -1,10 +1,11 @@
 SiiNunit
 {
 
-	package_version_info : .154
+	package_version_info : .155
 	{
-		package_name: "154_reareq"
+		package_name: "155_reareq"
 		compatible_versions[]: "1.54.*"
+		compatible_versions[]: "1.55.*"
 	}
 
 	package_version_info : .universal
