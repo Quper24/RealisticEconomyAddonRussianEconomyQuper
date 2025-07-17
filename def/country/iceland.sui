@@ -9,7 +9,7 @@ country_data : country.data.iceland
 
 	pos: (-82000, 0, -97500)
 
-	fuel_price: 2.169
+	fuel_price: 1.975
 
 	lights_mandatory: true
 	driving_tired_offence: true

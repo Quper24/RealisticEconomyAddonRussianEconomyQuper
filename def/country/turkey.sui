@@ -9,7 +9,7 @@ country_data : country.data.turkey
 
 	pos: (103184, 0, 55303)
 
-	fuel_price: 1.019
+	fuel_price: 0.928
 
 	lights_mandatory: false
 	driving_tired_offence: true

@@ -10,7 +10,7 @@ country_data : country.data.westsahara
 
 	pos: (-143934, 0, 118134)
 
-	fuel_price: 1.52
+	fuel_price: 1.384
 
 	lights_mandatory: false
 	driving_tired_offence: true

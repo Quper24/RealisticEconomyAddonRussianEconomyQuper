@@ -10,7 +10,7 @@ country_data : country.data.papuang
 
 	pos: (645390, 0, -387460)
 
-	fuel_price: 0.81
+	fuel_price: 0.738
 
 	lights_mandatory: false
 	leftside_traffic: true

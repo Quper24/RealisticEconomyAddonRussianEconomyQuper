@@ -18,6 +18,8 @@
   "homepage": "https://github.com/Quper24/FixFreezeAddonRealisticEconomyQuper#readme",
   "description": "",
   "dependencies": {
-    "axios": "^1.9.0"
+    "axios": "^1.9.0",
+    "cheerio": "^1.0.0",
+    "jsdom": "^26.1.0"
   }
 }

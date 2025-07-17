@@ -10,7 +10,7 @@ country_data : country.data.myanmar
 
 	pos: (414000, 0, -61000)
 
-	fuel_price: 0.683
+	fuel_price: 0.622
 
 	lights_mandatory: false
 	driving_tired_offence: true

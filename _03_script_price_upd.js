@@ -28,7 +28,9 @@ function updateCountryFiles() {
     // Обрабатываем каждую страну
     countries.forEach((country) => {
       let { filename, price } = country;
-      price *= FIX_COEF;
+      price /= FIX_COEF;
+      price = parseFloat(price.toFixed(3));
+
       // Пробуем разные расширения: .sui и .sii
       const extensions = [".sui", ".sii"];
       let fileFound = false;

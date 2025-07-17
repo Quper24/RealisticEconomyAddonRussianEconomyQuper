@@ -9,7 +9,7 @@ country_data : country.data.macedonia
 
 	pos: (45500, 0, 49000)
 
-	fuel_price: 1.12
+	fuel_price: 1.02
 
 	lights_mandatory: true
 	driving_tired_offence: true

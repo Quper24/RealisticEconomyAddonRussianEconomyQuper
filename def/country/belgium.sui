@@ -9,7 +9,7 @@ country_data : country.data.belgium
 
 	pos: (-20800, 0, -1133)
 
-	fuel_price: 1.551
+	fuel_price: 1.412
 
 	lights_mandatory: false
 	driving_tired_offence: true

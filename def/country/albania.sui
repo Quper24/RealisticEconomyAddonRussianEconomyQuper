@@ -9,7 +9,7 @@ country_data : country.data.albania
 
 	pos: (39000, 0, 55000)
 
-	fuel_price: 2.053
+	fuel_price: 1.869
 
 	lights_mandatory: false
 	driving_tired_offence: true

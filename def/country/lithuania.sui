@@ -9,7 +9,7 @@ country_data : country.data.lithuania
 
 	pos: (45000, 0, -28000)
 
-	fuel_price: 1.421
+	fuel_price: 1.294
 
 	lights_mandatory: true
 	driving_tired_offence: true

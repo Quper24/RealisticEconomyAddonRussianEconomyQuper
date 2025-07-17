@@ -6,7 +6,7 @@ country_data: country.data.iran
 	country_code: "IR"
         iso_country_code: "irn"
 	pos:(200671, 12.01, 55064)
-	fuel_price: 0.006
+	fuel_price: 0.005
 	country_id: 58
 	lights_mandatory: false
 	driving_tired_offence: true

@@ -10,7 +10,7 @@ country_data : country.data.senegal
 
 	pos: (-174597, 0, 178165)
 
-	fuel_price: 1.344
+	fuel_price: 1.224
 
 	lights_mandatory: false
 	driving_tired_offence: true

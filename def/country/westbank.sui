@@ -9,7 +9,7 @@ country_data: country.data.westbank
 
 	pos:(115000, 0, 91000)
 
-	fuel_price: 1.35
+	fuel_price: 1.229
 
 	lights_mandatory: false
 	leftside_traffic: false
