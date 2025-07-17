@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.bechet.rahova{
+	price: 6
+	time: 2
+	distance: 1
+}
+}
+

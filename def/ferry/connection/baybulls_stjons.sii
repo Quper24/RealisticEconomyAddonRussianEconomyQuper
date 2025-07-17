@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.baybulls.stjons {
+	price: 32
+	time: 526
+	distance: 350
+}
+}

@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.dudinka.helsinki {
+	price: 225
+	time: 4393
+	distance: 2928
+}
+}
+

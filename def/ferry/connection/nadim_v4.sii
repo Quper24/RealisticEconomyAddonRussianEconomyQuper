@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.nadim.v4 {
+	price: 264
+	time: 5176
+	distance: 3450
+}
+}
+

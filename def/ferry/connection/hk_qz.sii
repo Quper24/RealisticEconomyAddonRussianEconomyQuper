@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.hk.qz {
+	price: 21
+	time: 301
+	distance: 200
+}
+}
+

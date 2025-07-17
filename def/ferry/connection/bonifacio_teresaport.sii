@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.bonifacio.teresaport {
+	price: 9
+	time: 74
+	distance: 49
+}
+}
+

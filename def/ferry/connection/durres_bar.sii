@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.durres.bar {
+	price: 12
+	time: 139
+	distance: 92
+}
+}

@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.alcudia.menorca{
+	price: 7
+	time: 31
+	distance: 20
+
+}
+}
+

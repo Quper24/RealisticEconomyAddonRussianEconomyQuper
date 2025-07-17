@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.maderno.torri {
+	price: 6
+	time: 11
+	distance: 7
+}
+}
+

@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.palermo.livorno {
+	price: 58
+	time: 1051
+	distance: 700
+}
+}
+

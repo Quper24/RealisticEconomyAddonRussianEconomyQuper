@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.portotorres.mahon {
+	price: 47
+	time: 836
+	distance: 557
+}
+}

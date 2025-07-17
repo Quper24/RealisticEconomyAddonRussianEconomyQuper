@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.dalian.songkhla{
+	price: 313
+	time: 6158
+	distance: 4105
+}
+}
+

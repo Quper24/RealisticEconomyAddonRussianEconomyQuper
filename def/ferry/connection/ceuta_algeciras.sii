@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.ceuta.algeciras{
+	price: 6
+	time: 16
+	distance: 10
+
+}
+}
+

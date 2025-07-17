@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.valencia.dakar {
+	price: 36
+	time: 601
+	distance: 400
+}
+}
+
