@@ -7,7 +7,7 @@ country_data: country.data.indo_th
 	
 	pos:(524127, 0, -92957) # Ubah sesuai posisi map daerah kalian masing-masing
 	
-	fuel_price: 0.673 # per liter dalam satuan mata uang Euro 
+	fuel_price: 0.688 # per liter dalam satuan mata uang Euro 
 	
 	country_id: 495 # Kustom
 	

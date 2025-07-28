@@ -9,7 +9,7 @@ country_data : country.data.somalia
 
 	pos: (256812, 0, 250515)
 
-	fuel_price: 0.901
+	fuel_price: 0.921
 
 	lights_mandatory: false
 	driving_tired_offence: false

@@ -9,7 +9,7 @@ country_data : country.data.denmark
 
 	pos: (-2100, 0, -29000)
 
-	fuel_price: 1.663
+	fuel_price: 1.699
 
 	lights_mandatory: true
 	driving_tired_offence: true

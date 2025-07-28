@@ -9,7 +9,7 @@ country_data : country.data.italy
 
 	pos: (-4210, 0, 31600)
 
-	fuel_price: 1.445
+	fuel_price: 1.477
 
 	lights_mandatory: true
 	driving_tired_offence: true

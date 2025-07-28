@@ -9,7 +9,7 @@ country_data : country.data.iom
 
 	pos: (-53980, 0, -36245)
 
-	fuel_price: 1.485
+	fuel_price: 1.518
 
 	lights_mandatory: false
 	imperial_units: true

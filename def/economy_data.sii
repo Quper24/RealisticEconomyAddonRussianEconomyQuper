@@ -72,10 +72,10 @@
 		#
 		# AI driver related configuration
 		#
-		fuel_cost_per_km: (0.3, 0.5)		# for driver simulation
+		fuel_cost_per_km: (0.2, 0.4)		# for driver simulation
 		driver_max_cargo_damage: 0.10		# in %, decrease with skill
-		driver_maintenance_cost: (0.04, 0.06) 	# maintenance + insurance, base range in E/km
-		minimal_driver_salary:	100		# fixed part of driver's pay
+		driver_maintenance_cost: (0.02, 0.04) 	# maintenance + insurance, base range in E/km
+		minimal_driver_salary:	50		# fixed part of driver's pay
 		driver_revenue_coef_per_km: 0.025		# Revenue coefficient used during quick job and drivers jobs.
 		driver_cargo_market_revenue_coef_per_km: 0.01 # Revenue coefficient used during cargo market jobs for drivers.
 

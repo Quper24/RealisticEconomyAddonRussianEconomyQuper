@@ -10,7 +10,7 @@ country_data : country.data.pernambuco
 
 	pos: (-212210, 0, 375000)
 
-	fuel_price: 0.974
+	fuel_price: 0.996
 
 	lights_mandatory: false
 	driving_tired_offence: true

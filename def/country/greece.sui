@@ -9,7 +9,7 @@ country_data : country.data.greece
 
 	pos: (47000, 0, 62000)
 
-	fuel_price: 1.331
+	fuel_price: 1.36
 
 	lights_mandatory: false
 	driving_tired_offence: true

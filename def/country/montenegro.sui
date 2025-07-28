@@ -9,7 +9,7 @@ country_data : country.data.montenegro
 
 	pos: (35000, 0, 44000)
 
-	fuel_price: 1.166
+	fuel_price: 1.191
 
 	lights_mandatory: true
 	driving_tired_offence: true

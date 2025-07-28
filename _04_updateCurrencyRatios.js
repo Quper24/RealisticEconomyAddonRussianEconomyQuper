@@ -32,7 +32,7 @@ const CURRENCIES_TO_UPDATE = [
   "CNY",
 ];
 
-const FIX_COEF = 1.0981770261366133;
+const FIX_COEF = 1.07469102633;
 // --- Загрузка данных из файла ---
 function readFile() {
   return fs.readFileSync(FILE_PATH, "utf-8");

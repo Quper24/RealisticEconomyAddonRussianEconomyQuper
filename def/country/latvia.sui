@@ -9,7 +9,7 @@ country_data : country.data.latvia
 
 	pos: (49500, 0, -37100)
 
-	fuel_price: 1.3
+	fuel_price: 1.329
 
 	lights_mandatory: true
 	driving_tired_offence: true
