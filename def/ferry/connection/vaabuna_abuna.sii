@@ -1,0 +1,11 @@
+SiiNunit
+{
+ferry_connection: conn.vaabuna.abuna
+{
+	price: 6
+	time: 2
+	distance: 1
+
+}
+}
+

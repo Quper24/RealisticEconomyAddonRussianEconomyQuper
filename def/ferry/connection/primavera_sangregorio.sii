@@ -1,0 +1,11 @@
+SiiNunit
+{
+ferry_connection: conn.primavera.sangregorio
+{
+	price: 6
+	time: 13
+	distance: 8
+
+}
+}
+

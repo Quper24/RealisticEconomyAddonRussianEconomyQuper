@@ -1,0 +1,11 @@
+SiiNunit
+{
+ferry_connection: conn.lethem.linden
+{
+	price: 6
+	time: 5
+	distance: 3
+
+}
+}
+

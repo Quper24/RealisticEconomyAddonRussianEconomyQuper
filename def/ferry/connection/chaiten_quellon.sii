@@ -1,0 +1,11 @@
+SiiNunit
+{
+ferry_connection: conn.chaiten.quellon
+{
+	price: 12
+	time: 121
+	distance: 80
+
+}
+}
+

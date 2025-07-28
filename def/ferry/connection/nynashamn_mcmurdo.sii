@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.nynashamn.mcmurdo {
+	price: 1327
+	time: 26425
+	distance: 17616
+}
+}
+
