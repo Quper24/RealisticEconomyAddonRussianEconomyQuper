@@ -10,7 +10,7 @@ country_data : country.data.thailand
 
 	pos: (450000, 0, -90000)
 
-	fuel_price: 0.8
+	fuel_price: 0.802
 
 	lights_mandatory: false
 	leftside_traffic: true

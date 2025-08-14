@@ -9,7 +9,7 @@ country_data : country.data.bulgaria
 
 	pos: (59500, 0, 40300)
 
-	fuel_price: 1.091
+	fuel_price: 1.093
 
 	lights_mandatory: true
 	driving_tired_offence: true

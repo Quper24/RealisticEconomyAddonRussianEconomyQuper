@@ -9,7 +9,7 @@ country_data: country.data.syria
 
 	pos:(126000, 0, 70000)
 
-	fuel_price: 0.537
+	fuel_price: 0.564
 
 	lights_mandatory: false
 	leftside_traffic: false

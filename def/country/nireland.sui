@@ -9,7 +9,7 @@ country_data : country.data.nireland
 
 	pos: (-70000, 0, -52000)
 
-	fuel_price: 1.461
+	fuel_price: 1.464
 
 	lights_mandatory: false
 	imperial_units: true

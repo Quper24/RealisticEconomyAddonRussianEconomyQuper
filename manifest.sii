@@ -4,10 +4,10 @@ SiiNunit
 	{
 
 		# Package version can be any string with any length.
-		package_version: "1.55.3"
+		package_version: "1.55.4"
 
 		# Display name can be any string with any length.
-		display_name: "Realistic Economy addon Russia Economy by Quper"
+		display_name: "Realistic Russia Economy by Quper"
 
 		# Author can be any string with any length.
 		author: "Quper"

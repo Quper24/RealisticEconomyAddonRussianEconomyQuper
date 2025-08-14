@@ -10,7 +10,7 @@ country_data : country.data.sudan1
 	
 	pos:(120000, 0, 185000)
 	
-	fuel_price: 0.536
+	fuel_price: 0.537
 	
 	lights_mandatory: false
 	leftside_traffic: false

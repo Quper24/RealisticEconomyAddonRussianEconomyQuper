@@ -9,7 +9,7 @@ country_data : country.data.svalbard
 
 	pos: (20700, 0, -167000)
 
-	fuel_price: 2.326
+	fuel_price: 2.331
 
 	lights_mandatory: true
 	driving_tired_offence: true

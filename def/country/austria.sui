@@ -9,7 +9,7 @@ country_data : country.data.austria
 
 	pos: (14940, 0, 18780)
 
-	fuel_price: 1.363
+	fuel_price: 1.366
 
 	lights_mandatory: false
 	driving_tired_offence: true

@@ -9,7 +9,7 @@ country_data : country.data.greenland
 
 	pos:(-106989, 0, -145195)
 
-	fuel_price: 0.586
+	fuel_price: 0.587
 
 	lights_mandatory: true
 	driving_tired_offence: true

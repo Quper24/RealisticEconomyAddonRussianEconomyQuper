@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.lote.anda{
+	price: 6
+	time: 4
+	distance: 2
+}
+}

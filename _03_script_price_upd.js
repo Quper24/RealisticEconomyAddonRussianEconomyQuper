@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const FIX_COEF = 1.07469102633;
+const FIX_COEF = 1.0725010725010726;
 
 // Путь к папке с файлами стран
 const countryDir = path.join(__dirname, "def", "country");

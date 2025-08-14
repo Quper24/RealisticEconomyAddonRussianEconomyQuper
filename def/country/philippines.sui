@@ -10,7 +10,7 @@ country_data : country.data.philippines
 
 	pos: (520636, 0, -214228)
 
-	fuel_price: 0.749
+	fuel_price: 0.751
 
 	lights_mandatory: false
 	driving_tired_offence: true
