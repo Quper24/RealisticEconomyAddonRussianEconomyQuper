@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.istanbul.mersin{
-	price: 144
+	price: 143
 	time: 2761
 	distance: 1840
 

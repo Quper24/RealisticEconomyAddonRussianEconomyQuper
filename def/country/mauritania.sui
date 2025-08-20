@@ -10,7 +10,7 @@ country_data : country.data.mauritania
 
 	pos: (-165144.66, 10.05 , 148354.88)
 
-	fuel_price: 1.305
+	fuel_price: 1.315
 
 	lights_mandatory: true
 	driving_tired_offence: true

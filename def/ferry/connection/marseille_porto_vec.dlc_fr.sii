@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.marseille.porto_vec {
-	price: 35
+	price: 34
 	time: 593
 	distance: 395
 	

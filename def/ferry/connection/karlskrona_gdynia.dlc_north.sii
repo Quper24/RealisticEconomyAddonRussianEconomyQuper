@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.karlskrona.gdynia {
-	price: 30
+	price: 29
 	time: 488
 	distance: 325
 }

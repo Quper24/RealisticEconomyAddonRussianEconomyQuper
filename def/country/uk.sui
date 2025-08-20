@@ -9,7 +9,7 @@ country_data : country.data.uk
 
 	pos: (-48000, 0, -44150)
 
-	fuel_price: 1.544
+	fuel_price: 1.556
 
 	lights_mandatory: false
 	imperial_units: true

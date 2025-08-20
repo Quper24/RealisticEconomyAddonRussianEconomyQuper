@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.longyearbyen.hornsund {
-	price: 29
+	price: 28
 	time: 476
 	distance: 317
 }

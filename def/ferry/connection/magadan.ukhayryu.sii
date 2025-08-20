@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.magadan.ukhayryu {
-	price: 39
+	price: 38
 	time: 665
 	distance: 443
 

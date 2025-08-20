@@ -1,10 +1,5 @@
 SiiNunit
 {
-ferry_connection : conn.yeji_1.nouakchott{
-	price: 200
-	time: 3895
-	distance: 2596
 
-}
 }
 

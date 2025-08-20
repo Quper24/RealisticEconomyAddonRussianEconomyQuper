@@ -9,7 +9,7 @@ country_data : country.data.slovakia
 
 	pos: (32500, 0, 11500)
 
-	fuel_price: 1.303
+	fuel_price: 1.313
 
 	lights_mandatory: true
 	driving_tired_offence: true

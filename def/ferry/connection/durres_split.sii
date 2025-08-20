@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.durres.split{
-	price: 39
+	price: 38
 	time: 676
 	distance: 450
 }

@@ -7,7 +7,7 @@ country_data: country.data.saudia1
 	country_code: "KSA"
 	iso_country_code: sau
 
-	fuel_price: 0.363
+	fuel_price: 0.365
 
 	lights_mandatory: false
 	leftside_traffic: false

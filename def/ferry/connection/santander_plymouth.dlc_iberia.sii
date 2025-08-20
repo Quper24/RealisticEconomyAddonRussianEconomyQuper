@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.santander.plymouth {
-	price: 54
+	price: 53
 	time: 962
 	distance: 641
 	

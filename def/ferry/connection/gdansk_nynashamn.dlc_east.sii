@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.gdansk.nynashamn {
-	price: 37
+	price: 36
 	time: 623
 	distance: 415
 

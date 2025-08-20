@@ -9,7 +9,7 @@ country_data : country.data.hungary
 
 	pos: (32055, 0, 20500)
 
-	fuel_price: 1.369
+	fuel_price: 1.379
 
 	lights_mandatory: true
 	driving_tired_offence: true

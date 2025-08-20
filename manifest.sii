@@ -4,7 +4,7 @@ SiiNunit
 	{
 
 		# Package version can be any string with any length.
-		package_version: "1.55.4"
+		package_version: "1.55.5"
 
 		# Display name can be any string with any length.
 		display_name: "Realistic Russia Economy by Quper"
@@ -24,6 +24,7 @@ SiiNunit
 
 		# Description file inside the root directory of the mod.
 		description_file: "description.txt"
+		mp_mod_optional: true
 
 	}
 }

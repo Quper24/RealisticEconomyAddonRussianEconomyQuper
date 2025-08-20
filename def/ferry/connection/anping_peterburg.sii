@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.anping.peterburg {
-	price: 141
+	price: 140
 	time: 2701
 	distance: 1800
 }

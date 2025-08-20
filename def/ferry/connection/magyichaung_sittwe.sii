@@ -2,8 +2,8 @@ SiiNunit
 {
 ferry_connection : conn.magyichaung.sittwe {
 	price: 7
-	time: 28
-	distance: 18
+	time: 46
+	distance: 30
 }
 }
 

@@ -10,7 +10,7 @@ country_data : country.data.laos
 
 	pos: (433000, 0, -101000)
 
-	fuel_price: 0.718
+	fuel_price: 0.723
 
 	lights_mandatory: false
 	driving_tired_offence: true

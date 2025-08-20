@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.anadyr.kopi {
-	price: 6
+	price: 5
 	time: 16
 	distance: 10
 }

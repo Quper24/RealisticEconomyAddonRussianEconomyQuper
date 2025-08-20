@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.trieste.patras {
-	price: 72 # approx based on ancona/patras
+	price: 71 # approx based on ancona/patras
 	time: 1333
 	distance: 888
 

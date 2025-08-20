@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.bergen.hirtshals {
-	price: 50
+	price: 49
 	time: 886
 	distance: 590
 

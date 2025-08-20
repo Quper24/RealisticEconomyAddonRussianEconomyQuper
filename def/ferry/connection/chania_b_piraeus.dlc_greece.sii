@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.chania_b.piraeus {
-	price: 17
+	price: 16
 	time: 232
 	distance: 154
 

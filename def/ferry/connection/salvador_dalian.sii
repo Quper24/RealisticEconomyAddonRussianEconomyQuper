@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.salvador.dalian{
-	price: 1245
+	price: 1244
 	time: 24781
 	distance: 16520
 }

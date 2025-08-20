@@ -9,7 +9,7 @@ country_data : country.data.serbia
 
 	pos: (41000, 0, 36000)
 
-	fuel_price: 1.469
+	fuel_price: 1.481
 
 	lights_mandatory: true
 	driving_tired_offence: true

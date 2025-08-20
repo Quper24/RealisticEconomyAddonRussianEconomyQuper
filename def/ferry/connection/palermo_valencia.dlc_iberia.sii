@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.palermo.valencia {
-	price: 77
+	price: 76
 	time: 1432
 	distance: 954
 	

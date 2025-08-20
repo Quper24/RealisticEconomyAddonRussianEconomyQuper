@@ -2,7 +2,7 @@ SiiNunit
 {
 ferry_connection : conn.seribegawan.labuan {
 	price: 8
-	time: 43
-	distance: 28
+	time: 76
+	distance: 50
 }
 }

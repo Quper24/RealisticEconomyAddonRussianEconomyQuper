@@ -2,7 +2,7 @@ SiiNunit
 {
 ferry_connection: conn.pargua.chacao
 {
-	price: 6
+	price: 5
 	time: 8
 	distance: 5
 

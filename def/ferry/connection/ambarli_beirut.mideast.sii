@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.ambarli.beirut{
-	price: 126
+	price: 125
 	time: 2416
 	distance: 1610
 

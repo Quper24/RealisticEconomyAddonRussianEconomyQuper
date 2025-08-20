@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.botnhamn.brensholmen{
-	price: 8
+	price: 7
 	time: 41
 	distance: 27
 

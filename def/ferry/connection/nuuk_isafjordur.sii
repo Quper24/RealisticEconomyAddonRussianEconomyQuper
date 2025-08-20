@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.nuuk.isafjordur {
-	price: 156
+	price: 155
 	time: 3013
 	distance: 2008
 

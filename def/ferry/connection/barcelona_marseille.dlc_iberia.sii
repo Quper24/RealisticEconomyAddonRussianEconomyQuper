@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.barcelona.marseille {
-	price: 33
+	price: 32
 	time: 553
 	distance: 368
 	

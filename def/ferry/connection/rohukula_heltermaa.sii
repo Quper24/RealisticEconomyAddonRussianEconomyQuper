@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.rohukula.heltermaa{
-	price: 7
+	price: 6
 	time: 34
 	distance: 22
 

@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.kavala.chios_b {
-	price: 15 # approx based on rhodes/athens
+	price: 14 # approx based on rhodes/athens
 	time: 188
 	distance: 125
 

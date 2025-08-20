@@ -10,7 +10,7 @@ country_data : country.data.cambodia
 
 	pos: (482000, 0, -93000)
 
-	fuel_price: 0.72
+	fuel_price: 0.725
 
 	lights_mandatory: false
 	driving_tired_offence: true

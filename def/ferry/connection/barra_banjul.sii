@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.barra.banjul {
-	price: 7
+	price: 6
 	time: 38
 	distance: 25
 }
