@@ -10,7 +10,7 @@ country_data : country.data.southsudan
 
 	pos:(120000, 0, 250000)
 
-	fuel_price: 1.503
+	fuel_price: 1.51
 
 	lights_mandatory: false
 	trailer_standalone: false

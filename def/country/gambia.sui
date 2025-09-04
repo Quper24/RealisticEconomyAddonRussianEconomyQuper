@@ -10,7 +10,7 @@ country_data : country.data.gambia
 
 	pos: (-182682, 0, 181191)
 
-	fuel_price: 1.109
+	fuel_price: 1.114
 
 	lights_mandatory: false
 	driving_tired_offence: true

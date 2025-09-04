@@ -9,7 +9,7 @@ country_data : country.data.aland
 
 	pos: (30000, 0, -54000)
 
-	fuel_price: 1.292
+	fuel_price: 1.298
 
 	lights_mandatory: true
 	driving_tired_offence: true

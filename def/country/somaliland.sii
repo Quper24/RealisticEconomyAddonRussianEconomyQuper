@@ -6,7 +6,7 @@ country_data: country.data.somaliland
 	country_code: "SML"
 	iso_country_code: sml
 	pos:(214446, 0, 202756)
-	fuel_price: 0.93
+	fuel_price: 0.934
 	country_id: 9999
 	lights_mandatory: false
 	leftside_traffic: false

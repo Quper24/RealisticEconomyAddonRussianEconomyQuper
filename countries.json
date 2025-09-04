@@ -7,7 +7,7 @@
   },
   {
     "name": "Shqipëria",
-    "price": 1.786,
+    "price": 1.769,
     "filename": "albania.sui",
     "name_en": "Albania"
   },
@@ -31,7 +31,7 @@
   },
   {
     "name": "Hayastan",
-    "price": 1.121,
+    "price": 1.173,
     "filename": "armenia.sui",
     "name_en": "Armenia"
   },
@@ -49,7 +49,7 @@
   },
   {
     "name": "Bangladesh",
-    "price": 0.721,
+    "price": 0.72,
     "filename": "bangladesh.sui",
     "name_en": "Bangladesh"
   },
@@ -73,7 +73,7 @@
   },
   {
     "name": "Botswana",
-    "price": 0.919,
+    "price": 0.952,
     "filename": "botswana.sui",
     "name_en": "Botswana"
   },
@@ -181,7 +181,7 @@
   },
   {
     "name": "Ethiopia",
-    "price": 0.709,
+    "price": 0.701,
     "filename": "ethiopia.sui",
     "name_en": "Ethiopia"
   },
@@ -337,7 +337,7 @@
   },
   {
     "name": "Kazakhstan",
-    "price": 0.463,
+    "price": 0.462,
     "filename": "kazakhstan.sui",
     "name_en": "Kazakhstan"
   },
@@ -355,7 +355,7 @@
   },
   {
     "name": "Кыргызстан",
-    "price": 0.749,
+    "price": 0.753,
     "filename": "kyrgyzstan.sui",
     "name_en": "Kyrgyzstan"
   },
@@ -427,7 +427,7 @@
   },
   {
     "name": "Mali",
-    "price": 1.109,
+    "price": 1.113,
     "filename": "mali.sui",
     "name_en": "Mali"
   },
@@ -451,13 +451,13 @@
   },
   {
     "name": "Monaco",
-    "price": 1.695,
+    "price": 1.65,
     "filename": "monaco.sui",
     "name_en": "Monaco"
   },
   {
     "name": "Монгол Улс",
-    "price": 0.966,
+    "price": 0.973,
     "filename": "mongolia.sui",
     "name_en": "Mongolia"
   },
@@ -469,7 +469,7 @@
   },
   {
     "name": "Morocco",
-    "price": 1.059,
+    "price": 1.021,
     "filename": "morocco.sui",
     "name_en": "Morocco"
   },
@@ -499,7 +499,7 @@
   },
   {
     "name": "Nigeria",
-    "price": 0.558,
+    "price": 0.556,
     "filename": "nigeria.sui",
     "name_en": "Nigeria"
   },
@@ -589,7 +589,7 @@
   },
   {
     "name": "Senegal",
-    "price": 1.155,
+    "price": 1.159,
     "filename": "senegal.sui",
     "name_en": "Senegal"
   },
@@ -709,7 +709,7 @@
   },
   {
     "name": "Tunisia",
-    "price": 0.656,
+    "price": 0.657,
     "filename": "tunisia.sui",
     "name_en": "Tunisia"
   },
@@ -721,7 +721,7 @@
   },
   {
     "name": "Uganda",
-    "price": 1.129,
+    "price": 1.138,
     "filename": "uganda.sui",
     "name_en": "Uganda"
   },
@@ -739,7 +739,7 @@
   },
   {
     "name": "O'zbekiston",
-    "price": 0.832,
+    "price": 0.837,
     "filename": "uzbekistan.sui",
     "name_en": "Uzbekistan"
   },

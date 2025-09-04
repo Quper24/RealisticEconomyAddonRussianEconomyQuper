@@ -4,7 +4,7 @@ SiiNunit
 	{
 
 		# Package version can be any string with any length.
-		package_version: "1.55.5"
+		package_version: "1.55.6"
 
 		# Display name can be any string with any length.
 		display_name: "Realistic Russia Economy by Quper"

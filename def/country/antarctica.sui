@@ -10,7 +10,7 @@ country_data : country.data.antarctica
 
 	pos: (50000, 0, 690000)
 
-	fuel_price: 4.697
+	fuel_price: 4.719
 
 	lights_mandatory: false
 	imperial_units: true

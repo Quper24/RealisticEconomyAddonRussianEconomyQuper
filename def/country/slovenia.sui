@@ -9,7 +9,7 @@ country_data : country.data.slovenia
 
 	pos: (14940, 0, 26000)
 
-	fuel_price: 1.346
+	fuel_price: 1.352
 
 	lights_mandatory: true
 	driving_tired_offence: true

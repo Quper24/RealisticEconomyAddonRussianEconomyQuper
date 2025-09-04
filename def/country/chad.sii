@@ -10,7 +10,7 @@ country_data : country.data.chad
 	
 	pos:(50000, 0, 190000)
 	
-	fuel_price: 0.282 	# Libya
+	fuel_price: 0.283 	# Libya
 	
 	lights_mandatory: false
 	leftside_traffic: false

@@ -10,7 +10,7 @@ country_data : country.data.equatorial_g
 
 	pos: (-34232.91, 9.55 , 291535.19)
 
-	fuel_price: 0.705
+	fuel_price: 0.708
 
 	lights_mandatory: true
 	driving_tired_offence: true

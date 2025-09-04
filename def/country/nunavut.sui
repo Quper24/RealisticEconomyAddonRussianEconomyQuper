@@ -10,7 +10,7 @@ country_data : country.data.nunavut
 
 	pos: (-160550, 0, -255590)
 
-	fuel_price: 0.977
+	fuel_price: 0.982
 
 	lights_mandatory: true
 	driving_tired_offence: true
