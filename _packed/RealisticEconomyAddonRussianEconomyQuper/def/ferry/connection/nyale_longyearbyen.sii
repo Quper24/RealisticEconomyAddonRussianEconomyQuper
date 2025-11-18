@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.nyale.longyearbyen {
+	price: 28
+	time: 476
+	distance: 317
+}
+}

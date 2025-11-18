@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.phangan.suratthani {
+	price: 9
+	time: 83
+	distance: 55
+}
+}

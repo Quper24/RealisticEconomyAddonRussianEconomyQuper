@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.vladivostok.vakkanai{
+	price: 66
+	time: 1235
+	distance: 823
+}
+
+}
+

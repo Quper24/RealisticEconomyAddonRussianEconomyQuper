@@ -1,0 +1,9 @@
+SiiNunit
+{
+	ferry_connection : conn.landeyjahofn.galway{
+		price: 53
+		time: 961
+		distance: 640
+	}
+}
+

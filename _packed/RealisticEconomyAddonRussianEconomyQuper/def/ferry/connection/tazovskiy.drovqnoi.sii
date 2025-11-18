@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.tazovskiy.drovqnoi {
+	price: 56
+	time: 1021
+	distance: 680
+}
+}
+

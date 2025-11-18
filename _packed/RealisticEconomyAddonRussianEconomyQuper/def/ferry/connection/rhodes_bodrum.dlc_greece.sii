@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.rhodes.bodrum {
+	price: 14
+	time: 188
+	distance: 125
+
+
+}
+}

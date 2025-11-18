@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.bonifacio.santa {
+	price: 6
+	time: 31
+	distance: 20
+}
+}
+

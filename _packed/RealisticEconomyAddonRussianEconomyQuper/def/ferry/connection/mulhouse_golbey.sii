@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.mulhouse.golbey {
+	price: 13
+	time: 166
+	distance: 110
+}
+}
+

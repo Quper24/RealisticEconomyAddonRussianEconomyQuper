@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.europoort.hull {
+	price: 32
+	time: 556
+	distance: 370
+}
+}
+

@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.qz.calais {
+	price: 755
+	time: 15001
+	distance: 10000
+}
+}
+

@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.aarhus.sjelland{
+	price: 10
+	time: 109
+	distance: 72
+}
+}

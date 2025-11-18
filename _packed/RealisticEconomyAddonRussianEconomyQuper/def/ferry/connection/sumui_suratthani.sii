@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.samui.suratthani {
+	price: 7
+	time: 50
+	distance: 33
+}
+}

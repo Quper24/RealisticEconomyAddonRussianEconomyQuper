@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.denver.chaseville {
+	price: 5
+	time: 5
+	distance: 3
+}
+}
+
