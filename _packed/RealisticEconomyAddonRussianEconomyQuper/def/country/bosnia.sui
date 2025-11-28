@@ -1,3 +1,4 @@
+
 country_data : country.data.bosnia
 {
 	country_id: 17
@@ -9,7 +10,7 @@ country_data : country.data.bosnia
 
 	pos: (29000, 0, 36000)
 
-	fuel_price: 1.08
+	fuel_price: 1.04
 
 	lights_mandatory: true
 	driving_tired_offence: true

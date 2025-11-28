@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.nynashamn.ventspils {
-	price: 23
-	time: 368
-	distance: 245
+	price: 25
+	time: 415
+	distance: 276
 }
 }

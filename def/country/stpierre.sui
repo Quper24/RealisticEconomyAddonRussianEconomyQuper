@@ -10,7 +10,7 @@ country_data : country.data.stpierre
 
 	pos: (-183958, 0, -192600)
 
-	fuel_price: 1.407
+	fuel_price: 1.355
 
 	lights_mandatory: true
 	driving_tired_offence: true

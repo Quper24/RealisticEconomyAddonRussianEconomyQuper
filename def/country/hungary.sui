@@ -1,3 +1,4 @@
+
 country_data : country.data.hungary
 {
 	country_id: 13
@@ -7,9 +8,9 @@ country_data : country.data.hungary
 	country_code: "H"
 	iso_country_code: hun
 
-	pos: (32055, 0, 20500)
+	pos: (32055, 0, 21000)
 
-	fuel_price: 1.377
+	fuel_price: 1.326
 
 	lights_mandatory: true
 	driving_tired_offence: true

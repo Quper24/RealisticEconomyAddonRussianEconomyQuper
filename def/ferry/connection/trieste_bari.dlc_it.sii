@@ -1,9 +1,9 @@
 SiiNunit
 {
 ferry_connection : conn.trieste.bari {
-	price: 45
-	time: 809
-	distance: 539
+	price: 53
+	time: 968
+	distance: 645
 	
 	connection_positions[0]: (2500000, 0, 7000000)
 	connection_positions[1]: (2348544, 0, 8771584)

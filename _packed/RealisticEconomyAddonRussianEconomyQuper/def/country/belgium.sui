@@ -1,15 +1,16 @@
+
 country_data : country.data.belgium
 {
 	country_id: 2
-	
-	name: "België/Belgique"
+
+	name: "België"
 	name_localized: "@@belgium@@"
 	country_code: "B"
 	iso_country_code: bel
 
-	pos: (-20800, 0, -1133)
+	pos: (-21133, 0, -1133)
 
-	fuel_price: 1.455
+	fuel_price: 1.401
 
 	lights_mandatory: false
 	driving_tired_offence: true

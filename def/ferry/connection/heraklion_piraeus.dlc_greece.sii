@@ -1,9 +1,9 @@
 SiiNunit
 {
 ferry_connection : conn.heraklion.piraeus {
-	price: 17
-	time: 241
-	distance: 160
+	price: 29
+	time: 481
+	distance: 320
 connection_positions[0]: (16903870, 0, 21675414)
 connection_positions[1]: (14724372, 0, 18281330)
 

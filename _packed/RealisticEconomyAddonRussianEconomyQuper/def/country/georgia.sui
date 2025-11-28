@@ -9,7 +9,7 @@ country_data : country.data.georgia
 
 	pos: (140000, 0, 26200)
 
-	fuel_price: 0.885
+	fuel_price: 0.852
 
 	lights_mandatory: false
 	driving_tired_offence: true
