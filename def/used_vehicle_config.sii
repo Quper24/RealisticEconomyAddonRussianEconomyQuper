@@ -2,14 +2,16 @@ SiiNunit
 {
 	used_vehicle_assortment_config : .config
 	{
-		truck_generation_game_time_min: 720      # 0.5 дня
-		truck_generation_game_time_max: 1440     # 1 день
+		// 1 - 1.5 days
+		truck_generation_game_time_min: 1440
+		truck_generation_game_time_max: 2160
 
-		truck_expiration_game_time_min: 2160     # 1.5 дня
-		truck_expiration_game_time_max: 2880     # 2 дня
+		// 2 - 3 days
+		truck_expiration_game_time_min: 2880
+		truck_expiration_game_time_max: 4320
 
-		truck_count_min: 30
-		truck_count_max: 60
+		truck_count_min: 12
+		truck_count_max: 24
 
 		dealer_truck_offer_ratios[]: 0.5
 		dealer_truck_offer_levels[]: nil
@@ -17,10 +19,10 @@ SiiNunit
 		truck_odometer_limit_values[]: 1000000
 		truck_odometer_limit_levels[]: 3
 
-		truck_odometer_range_coef: 0.7
+		truck_odometer_range_coef: 0.9
 
-		dealer_truck_odometer_min: 100000
-		dealer_truck_odometer_max: 1500000
+		dealer_truck_odometer_min: 500000
+		dealer_truck_odometer_max: 2000000
 
 		truck_chassis_wear_min: 0.0
 		truck_chassis_wear_max: 0.1

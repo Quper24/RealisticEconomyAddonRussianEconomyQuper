@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.santiago_c.n_gerona{
-	price: 63
+	price: 43
 	time: 1163
 	distance: 775
 

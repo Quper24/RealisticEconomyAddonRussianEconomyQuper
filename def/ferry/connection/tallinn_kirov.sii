@@ -1,6 +1,6 @@
 SiiNunit{
   ferry_connection : conn.tallinn.kirov {
-	price: 124
+	price: 84
 	time: 2393
 	distance: 1595
 }

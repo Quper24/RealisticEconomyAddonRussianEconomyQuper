@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.gdansk.anping {
-	price: 43
+	price: 30
 	time: 773
 	distance: 515
 

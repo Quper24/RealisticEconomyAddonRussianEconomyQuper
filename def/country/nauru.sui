@@ -9,7 +9,7 @@ country_data : country.data.nauru
 
 	pos: (526000, 0, -317263)
 
-	fuel_price: 1.501
+	fuel_price: 1.466
 
 	lights_mandatory: false
 	imperial_units: true

@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.larnaka2.haifa{
-	price: 25
+	price: 18
 	time: 406
 	distance: 270
 

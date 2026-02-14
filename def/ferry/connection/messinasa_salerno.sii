@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.messinasa.salerno {
-	price: 26
+	price: 19
 	time: 425
 	distance: 283
 }

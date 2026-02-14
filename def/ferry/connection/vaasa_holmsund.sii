@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.vaasa.holmsund {
-	price: 12
+	price: 9
 	time: 145
 	distance: 96
 

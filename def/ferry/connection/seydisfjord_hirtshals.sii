@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.seydisfjord.hirtshals{
-	price: 138
+	price: 93
 	time: 2666
 	distance: 1777
 

@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.jakarta.vakkanai{
-	price: 507
+	price: 340
 	time: 10051
 	distance: 6700
 }

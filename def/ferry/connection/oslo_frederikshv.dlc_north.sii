@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.oslo.frederikshv {
-	price: 26
+	price: 19
 	time: 436
 	distance: 290
 

@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.dublin.holyhead{
-	price: 12
+	price: 10
 	time: 158
 	distance: 105
 

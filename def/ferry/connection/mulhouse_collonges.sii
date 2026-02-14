@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.mulhouse.collonges {
-	price: 29
+	price: 21
 	time: 481
 	distance: 320
 }

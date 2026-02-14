@@ -10,7 +10,7 @@ country_data: country.data.indo_b
 	
 	pos:(624127, 0, -82957) 
 	
-	fuel_price: 0.693 
+	fuel_price: 0.677 
 	
 	lights_mandatory: true
 	imperial_units: false 

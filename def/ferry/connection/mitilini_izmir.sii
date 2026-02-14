@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.mitilini.izmir {
-	price: 12
+	price: 10
 	time: 151
 	distance: 100
 }

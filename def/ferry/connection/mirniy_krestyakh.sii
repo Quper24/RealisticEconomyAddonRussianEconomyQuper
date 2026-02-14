@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.mirniy.krestyakh {
-	price: 9
+	price: 8
 	time: 91
 	distance: 60
 }

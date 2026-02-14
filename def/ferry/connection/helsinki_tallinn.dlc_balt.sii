@@ -2,7 +2,7 @@ SiiNunit
 {
 ferry_connection : conn.helsinki.tallinn {
 	price: 9
-	time: 86
-	distance: 57
+	time: 128
+	distance: 85
 }
 }

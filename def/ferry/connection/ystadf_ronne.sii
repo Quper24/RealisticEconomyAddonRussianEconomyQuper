@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.ystadf.ronne{
-	price: 9
+	price: 8
 	time: 100
 	distance: 66
 

@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.mariupol.eisk{
-	price: 11
+	price: 9
 	time: 121
 	distance: 80
 }

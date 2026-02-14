@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.dalian.korsakov{
-	price: 148
+	price: 100
 	time: 2876
 	distance: 1917
 }

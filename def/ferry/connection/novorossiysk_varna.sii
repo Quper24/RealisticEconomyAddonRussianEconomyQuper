@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.novorossiysk.varna{
-	price: 60
+	price: 41
 	time: 1102
 	distance: 734
 }

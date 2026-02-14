@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.calais.merak {
-	price: 754
+	price: 504
 	time: 14999
 	distance: 9999
 	

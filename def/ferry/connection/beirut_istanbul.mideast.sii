@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.beirut.istanbul{
-	price: 125
+	price: 85
 	time: 2416
 	distance: 1610
 

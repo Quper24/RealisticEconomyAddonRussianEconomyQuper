@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.silistra.calarasi {
-	price: 6
+	price: 5
 	time: 22
 	distance: 14
 

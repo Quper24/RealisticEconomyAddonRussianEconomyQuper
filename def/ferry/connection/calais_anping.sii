@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.calais.anping {
-	price: 118
+	price: 80
 	time: 2261
 	distance: 1507
 }

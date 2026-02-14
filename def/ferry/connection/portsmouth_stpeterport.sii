@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.portsmouth.stpeterport{
-	price: 20
+	price: 15
 	time: 313
 	distance: 208
 

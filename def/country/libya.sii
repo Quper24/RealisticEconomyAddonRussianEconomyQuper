@@ -10,7 +10,7 @@ country_data : country.data.libya
 	
 	pos:(30000, 0, 140000)
 	
-	fuel_price: 0.024
+	fuel_price: 0.02
 	
 	lights_mandatory: false
 	leftside_traffic: false

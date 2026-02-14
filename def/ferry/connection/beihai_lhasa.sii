@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.beihai.lhasa {
-	price: 268
+	price: 180
 	time: 5261
 	distance: 3507
 }

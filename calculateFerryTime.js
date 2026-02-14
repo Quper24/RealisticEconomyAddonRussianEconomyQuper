@@ -37,7 +37,7 @@ function calculateFerryTime(distance) {
 function calculatePrice(time) {
   const basePrice = 4; // Минимальная цена
   const pricePer30Minutes = 1; // Цена за каждые 30 минут
-  const additionalPrice = Math.ceil(time / 20); // Количество 30-минутных интервалов
+  const additionalPrice = Math.ceil(time / 30); // Количество 30-минутных интервалов
   return basePrice + additionalPrice;
 }
 

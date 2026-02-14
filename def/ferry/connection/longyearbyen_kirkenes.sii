@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.longyearbyen.kirkenes{
-	price: 97
+	price: 66
 	time: 1846
 	distance: 1230
 

@@ -1,3 +1,4 @@
+
 country_data : country.data.russia
 {
 	country_id: 38
@@ -7,146 +8,24 @@ country_data : country.data.russia
 	country_code: "RU"
 	iso_country_code: rus
 
-	pos: (100000, 0, -44500)
+	pos: (59500, 0, -53500)
 
-	fuel_price: 0.745
+	fuel_price: 0.766
+
 	lights_mandatory: true
 	driving_tired_offence: true
 
 	time_zone: 180		# +3 hours in minutes
-	time_zone_name: "MSK"
+	time_zone_name: "@@tz_msk@@"
 
-	# Kaliningrad area, KALT, +2 hours
+	# kaliningrad area, EET, +2 hours
 	secondary_time_zone_area[]: (32352.0, 41872.0, -26082.0, -20383.0)
 	secondary_time_zone[]: 120
-	secondary_time_zone_name[]: "KALT"
-	
-	# Saratov area 1, SAMT, +4 hours
-	secondary_time_zone_area[]: (114125.0, 121900.0, -32500.0, -23335.0)
-	secondary_time_zone[]: 240
-	secondary_time_zone_name[]: "SAMT"
-	# Saratov area 2, SAMT, +4 hours
-	secondary_time_zone_area[]: (121900.0, 122780.0, -35000.0, -24650.0)
-	secondary_time_zone[]: 240
-	secondary_time_zone_name[]: "SAMT"
-	# Samara area, SAMT, +4 hours
-	secondary_time_zone_area[]: (122780.0, 138445.0, -49490.0, -24650.0)
-	secondary_time_zone[]: 240
-	secondary_time_zone_name[]: "SAMT"
-	# Astrakhan area, SAMT, +4 hours
-	secondary_time_zone_area[]: (141300.0, 142900.0, -5905.0, -2345.0)
-	secondary_time_zone[]: 240
-	secondary_time_zone_name[]: "SAMT"
-
-	# Yekaterinburg Time (YEKT), UTC +5 hours от Лабытнанги до Салехард
-	secondary_time_zone_area[]: (123820.0, 126360.0, -134000.0, -130000.0)
-	secondary_time_zone[]: 300
-	secondary_time_zone_name[]: "YEKT"
-	# Yekaterinburg Time (YEKT), UTC +5 hours от Салехард до Югорск
-	secondary_time_zone_area[]: (126360.0, 137205.0, -161843.0, -75200.0)
-	secondary_time_zone[]: 300
-	secondary_time_zone_name[]: "YEKT"
-	# Yekaterinburg Time (YEKT), UTC +5 hours от Северное до Бавлы
-	secondary_time_zone_area[]: (135900.0, 137205.0, -52185.0, -49490.0)
-	secondary_time_zone[]: 300
-	secondary_time_zone_name[]: "YEKT"
-	# Yekaterinburg Time (YEKT), UTC +5 hours от Октябрьский до Бузулук
-	secondary_time_zone_area[]: (137205.0, 138445.0, -161843.0, -49490.0)
-	secondary_time_zone[]: 300
-	secondary_time_zone_name[]: "YEKT"
-	# Yekaterinburg Time (YEKT), UTC +5 hours от Бузулук до Исянгулово
-	secondary_time_zone_area[]: (138445.0, 159000.0, -161843.0, -41600.0)
-	secondary_time_zone[]: 300
-	secondary_time_zone_name[]: "YEKT"
-	# Yekaterinburg Time (YEKT), UTC +5 hours от Исянгулово до Орска
-	secondary_time_zone_area[]: (159000.0, 162720.0, -161843.0, -45600.0)
-	secondary_time_zone[]: 300
-	secondary_time_zone_name[]: "YEKT"
-	# Yekaterinburg Time (YEKT), UTC +5 hours от Орска до Актобе
-	secondary_time_zone_area[]: (162720.0, 164500.0, -48200.0, -46250.0)
-	secondary_time_zone[]: 300
-	secondary_time_zone_name[]: "YEKT"
-	# Yekaterinburg Time (YEKT), UTC +5 hours от Троицка до Петухово
-	secondary_time_zone_area[]: (162720.0, 175000.0, -147000.0, -69200.0)
-	secondary_time_zone[]: 300
-	secondary_time_zone_name[]: "YEKT"
-
-
-	# Omsk Time (KRAT), UTC +6 hours
-	secondary_time_zone_area[]: (174621.0, 192880.0, -107200.0, -87542.0)
-	secondary_time_zone[]: 360
-	secondary_time_zone_name[]: "OMST"
-	
-	# Krasnoyarsk Time (KRAT), UTC +7 hours от Бердск до Горно-Алтайск
-	secondary_time_zone_area[]: (208500.0, 230600.0, -120800.0, -101500.0)
-	secondary_time_zone[]: 420
-	secondary_time_zone_name[]: "KRAT"
-
-	# Krasnoyarsk Time (KRAT), UTC +7 hours от Бердск до Горно-Алтайск
-	secondary_time_zone_area[]: (193009.0, 226195.0, -162390.0, -104183.0)
-	secondary_time_zone[]: 420
-	secondary_time_zone_name[]: "KRAT"
-
-	# Krasnoyarsk Time (KRAT), UTC +7 hours от Бердск до Горно-Алтайск
-	secondary_time_zone_area[]: (136856.0, 163552.0, -189921.0, -161843.0)
-	secondary_time_zone[]: 420
-	secondary_time_zone_name[]: "KRAT"
-
-	# Irkutsk Time (IRKT), UTC +8 hours
-	secondary_time_zone_area[]: (225906.0, 274222.0, -186453.0, -162064.0)
-	secondary_time_zone[]: 480
-	secondary_time_zone_name[]: "IRKT"
-
-	# Irkutsk Time (IRKT), UTC +8 hours
-	secondary_time_zone_area[]: (225906.0, 274222.0, -186453.0, -162064.0)
-	secondary_time_zone[]: 480
-	secondary_time_zone_name[]: "IRKT"
-
-	# Yakutsk Time (YAKT), UTC +9 hours
-	secondary_time_zone_area[]: (192813.0, 296801.0, -265992.0, -185761.0)
-	secondary_time_zone[]: 540
-	secondary_time_zone_name[]: "YAKT"
-
-	# Yakutsk Time (YAKT), UTC +9 hours
-	secondary_time_zone_area[]: (180388.0, 237729.0, -305161.0, -264780.0)
-	secondary_time_zone[]: 540
-	secondary_time_zone_name[]: "YAKT"
-
-
-	# Vladivostok Time (VLAT), UTC +10 hours
-	secondary_time_zone_area[]: (246597.0, 296892.0, -318125.0, -264569.0)
-	secondary_time_zone[]: 600
-	secondary_time_zone_name[]: "VLAT"
-
-	# Vladivostok Time (VLAT), UTC +10 hours
-	secondary_time_zone_area[]: (296892.0, 328890.0, -297003.0, -264569.0)
-	secondary_time_zone[]: 600
-	secondary_time_zone_name[]: "VLAT"
-
-	# Magadan Time (MAGT), UTC +11 hours
-	secondary_time_zone_area[]: (182810.0, 227729.0, -338958.0, -305161.0)
-	secondary_time_zone[]: 660
-	secondary_time_zone_name[]: "MAGT"
-
-	# Kamchatka Time (PETT), UTC +12 hours
-	secondary_time_zone_area[]: (111904.0, 275742.0, -391762.0, -338958.0)
-	secondary_time_zone[]: 720
-	secondary_time_zone_name[]: "PETT"
-
-
-	# Aqtobe Time (YEKT), UTC +5
-	#	secondary_time_zone_area[]: (161000.0, 162715.0, -65200.0, -35000.0)
-	#	secondary_time_zone[]: 300
-	#	secondary_time_zone_name[]: "@@tz_aqtt@@"
-	# Aqtobe Time (YEKT), UTC +5
-	#	secondary_time_zone_area[]: (162715.0, 175000.0, -65865.0, -35000.0)
-	#	secondary_time_zone[]: 300
-	#	secondary_time_zone_name[]: "@@tz_aqtt@@"
+	secondary_time_zone_name[]: "@@tz_eet@@"
 
 	mass_limit_per_axle_count[]: 18000	# 2-axle vehicle
 	mass_limit_per_axle_count[]: 25000
 	mass_limit_per_axle_count[]: 36000
 	mass_limit_per_axle_count[]: 40000
 	mass_limit_per_axle_count[]: 44000
-	mass_limit_per_axle_count[]: 48000
 }

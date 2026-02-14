@@ -2,7 +2,7 @@ SiiNunit
 {
 ferry_connection: conn.montevideo.buenosaires
 {
-	price: 20
+	price: 15
 	time: 310
 	distance: 206
 

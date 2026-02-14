@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.calais.karaganda {
-	price: 12
+	price: 10
 	time: 154
 	distance: 102
 }

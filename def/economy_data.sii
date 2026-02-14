@@ -23,9 +23,9 @@
 		cargo_damage_cost: 4.0 		# -5 Euro per 1% of damage
 		cargo_damage_cost_factor: 0.05 	# -4% total cost penalty per 1% of damage
 
-		late_delivery_max_overtime[0]: 1440		# 1 days for "easy" deliveries
-		late_delivery_max_overtime[1]: 360		# 6 hours for "normal" deliveries
-		late_delivery_max_overtime[2]: 120		# 2 hours for "urgent" deliveries
+		late_delivery_max_overtime[0]: 2880	# 2 days for "easy" deliveries
+		late_delivery_max_overtime[1]: 720	# 12 hours for "normal" deliveries
+		late_delivery_max_overtime[2]: 240	# 4 hours for "urgent" deliveries
 
 		simulation_avg_speed: 50.0	# km/h
 
@@ -94,12 +94,12 @@
 		## Skill job filtering
 		##  Job distance limit (in km of real world)
 		##
-		skill_distance[0]:	300
-		skill_distance[1]:	450
-		skill_distance[2]:	700
-		skill_distance[3]:	1000
-		skill_distance[4]:	1300
-		skill_distance[5]:	1750
+		skill_distance[0]:	400
+		skill_distance[1]:	750
+		skill_distance[2]:	1500
+		skill_distance[3]:	2500
+		skill_distance[4]:	3500
+		skill_distance[5]:	5000
 
 		fixed_revenue: 40
 		revenue_coef_per_km: 0.048			# Revenue coefficient per km used during freight market jobs.
@@ -113,35 +113,35 @@
 		max_eco_consumption_drop[4]: (0.3, 0.3)
 		max_eco_consumption_drop[5]: (0.35, 0.35)	# Maximum consumption drop is 0.99.
 
-		reward_bonus_long_dist[0]: 0.01
-		reward_bonus_long_dist[1]: 0.02
-		reward_bonus_long_dist[2]: 0.03
-		reward_bonus_long_dist[3]: 0.04
-		reward_bonus_long_dist[4]: 0.07
-		reward_bonus_long_dist[5]: 0.08
+		reward_bonus_long_dist[0]: 0.02
+		reward_bonus_long_dist[1]: 0.03
+		reward_bonus_long_dist[2]: 0.04
+		reward_bonus_long_dist[3]: 0.05
+		reward_bonus_long_dist[4]: 0.06
+		reward_bonus_long_dist[5]: 0.07
 
-		reward_bonus_valuable[0]: 0.01
-		reward_bonus_valuable[1]: 0.02
-		reward_bonus_valuable[2]: 0.03
-		reward_bonus_valuable[3]: 0.04
-		reward_bonus_valuable[4]: 0.07
-		reward_bonus_valuable[5]: 0.08
+		reward_bonus_valuable[0]: 0.02
+		reward_bonus_valuable[1]: 0.03
+		reward_bonus_valuable[2]: 0.04
+		reward_bonus_valuable[3]: 0.05
+		reward_bonus_valuable[4]: 0.06
+		reward_bonus_valuable[5]: 0.07
 
-		reward_bonus_fragile[0]: 0.01
-		reward_bonus_fragile[1]: 0.02
-		reward_bonus_fragile[2]: 0.03
-		reward_bonus_fragile[3]: 0.04
-		reward_bonus_fragile[4]: 0.07
-		reward_bonus_fragile[5]: 0.08
+		reward_bonus_fragile[0]: 0.02
+		reward_bonus_fragile[1]: 0.03
+		reward_bonus_fragile[2]: 0.04
+		reward_bonus_fragile[3]: 0.05
+		reward_bonus_fragile[4]: 0.06
+		reward_bonus_fragile[5]: 0.07
 
-		reward_bonus_urgent[0]: 0.01
-		reward_bonus_urgent[1]: 0.02
-		reward_bonus_urgent[2]: 0.03
-		reward_bonus_urgent[3]: 0.04
-		reward_bonus_urgent[4]: 0.07
-		reward_bonus_urgent[5]: 0.08
+		reward_bonus_urgent[0]: 0.02
+		reward_bonus_urgent[1]: 0.03
+		reward_bonus_urgent[2]: 0.04
+		reward_bonus_urgent[3]: 0.05
+		reward_bonus_urgent[4]: 0.06
+		reward_bonus_urgent[5]: 0.07
 
-		reward_bonus_level: 0.03		# bonus for each level of the driver
+		reward_bonus_level: 0.03
 
 		#  Experience points
 		free_roam_report_limit: 100
@@ -170,8 +170,7 @@
 		exp_park_load_bonus: 40		# exp bonus for manually parking trailer during loading phase of the job
 
 		exp_damaged_cargo:	5		# -5 XP per 1% of cargo damage
-		exp_damaged_cargo_factor: 0.04		# -2% of total XP per 1% of cargo damage
-
+		exp_damaged_cargo_factor: 0.04		# -4% of total XP per 1% of cargo damage
 
 
 		adr_info_icon[]:	"1|/material/ui/icon/adr_1.mat"
@@ -247,49 +246,49 @@
 		currency_sign3[]: ""
 
 		currency_code[]: "CHF"
-		currency_ratio[]: 0.98
+		currency_ratio[]: 1.00
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " Fr"
 
 		currency_code[]: "CZK"
-		currency_ratio[]: 25.75
+		currency_ratio[]: 26.48
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " Kč"
 
 		currency_code[]: "GBP"
-		currency_ratio[]: 0.94
+		currency_ratio[]: 0.95
 		currency_sign1[]: ""
 		currency_sign2[]: "£"
 		currency_sign3[]: ""
 
 		currency_code[]: "PLN"
-		currency_ratio[]: 4.51
+		currency_ratio[]: 4.59
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " zł"
 
 		currency_code[]: "HUF"
-		currency_ratio[]: 409.44
+		currency_ratio[]: 413.66
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " Ft"
 
 		currency_code[]: "DKK"
-		currency_ratio[]: 7.95
+		currency_ratio[]: 8.14
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " kr"
 
 		currency_code[]: "SEK"
-		currency_ratio[]: 11.70
+		currency_ratio[]: 11.57
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " kr"
 
 		currency_code[]: "NOK"
-		currency_ratio[]: 12.48
+		currency_ratio[]: 12.32
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " kr"
@@ -301,67 +300,67 @@
 		currency_sign3[]: ""
 
 		currency_code[]: "BGN"
-		currency_ratio[]: 2.09
+		currency_ratio[]: 2.14
 		currency_sign1[]: ""
 		currency_sign2[]: "лв"
 		currency_sign3[]: ""
 
 		currency_code[]: "RON"
-		currency_ratio[]: 5.42
+		currency_ratio[]: 5.55
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " lei"
 
 		currency_code[]: "TRY"
-		currency_ratio[]: 52.31
+		currency_ratio[]: 56.61
 		currency_sign1[]: ""
-		currency_sign2[]: "₺ "
+		currency_sign2[]: "₺"
 		currency_sign3[]: ""
 
 		currency_code[]: "ALL"
-		currency_ratio[]: 102.95
+		currency_ratio[]: 105.16
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " lek"
 
 		currency_code[]: "BAM"
-		currency_ratio[]: 2.09
+		currency_ratio[]: 2.14
 		currency_sign1[]: ""
 		currency_sign2[]: "KM "
 		currency_sign3[]: ""
 
 		currency_code[]: "MKD"
-		currency_ratio[]: 65.59
+		currency_ratio[]: 67.33
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " ден"
 
 		currency_code[]: "RSD"
-		currency_ratio[]: 124.87
+		currency_ratio[]: 128.12
 		currency_sign1[]: ""
 		currency_sign2[]: "дин "
 		currency_sign3[]: ""
 
 		currency_code[]: "UAH"
-		currency_ratio[]: 52.03
+		currency_ratio[]: 55.80
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " грн"
 
 		currency_code[]: "KZT"
-		currency_ratio[]: 645.95
+		currency_ratio[]: 640.46
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " тг"
 
 		currency_code[]: "BYN"
-		currency_ratio[]: 3.99
+		currency_ratio[]: 3.69
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " бел. руб"
 
 		currency_code[]: "CNY"
-		currency_ratio[]: 8.78
+		currency_ratio[]: 8.95
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " CNY"

@@ -1,5 +1,9 @@
 SiiNunit
 {
-
+ferry_connection : conn.corfu.napoli{
+	price: 34
+	time: 896
+	distance: 597
+}
 }
 

@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.anping.keelung {
-	price: 35
+	price: 25
 	time: 611
 	distance: 407
 }

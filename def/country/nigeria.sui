@@ -10,7 +10,7 @@ country_data : country.data.nigeria
 
 	pos:(-34200, 0, 250570)
 
-	fuel_price: 0.533
+	fuel_price: 0.517
 
 	lights_mandatory: false
 	driving_tired_offence: true

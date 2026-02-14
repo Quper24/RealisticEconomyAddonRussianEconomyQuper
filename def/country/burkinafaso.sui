@@ -10,7 +10,7 @@ country_data : country.data.burkinafaso
 
 	pos: (-92574, 0, 224612)
 
-	fuel_price: 0.966
+	fuel_price: 0.944
 
 	lights_mandatory: false
 	driving_tired_offence: true

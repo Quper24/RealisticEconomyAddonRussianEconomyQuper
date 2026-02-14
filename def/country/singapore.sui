@@ -10,7 +10,7 @@ country_data : country.data.singapore
 
 	pos: (557000, 0, -62500)
 
-	fuel_price: 1.608
+	fuel_price: 1.539
 
 	lights_mandatory: false
 	leftside_traffic: true
