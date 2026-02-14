@@ -10,7 +10,7 @@ country_data : country.data.cameroon
 
 	pos: (2574, 0, 284612)
 
-	fuel_price: 1.176
+	fuel_price: 1.133
 
 	lights_mandatory: false
 	driving_tired_offence: true

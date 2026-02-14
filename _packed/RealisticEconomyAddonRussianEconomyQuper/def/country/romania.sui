@@ -1,3 +1,4 @@
+
 country_data : country.data.romania
 {
 	country_id: 37
@@ -6,11 +7,9 @@ country_data : country.data.romania
 	country_code: "RO"
 	iso_country_code: rou
 
-	pos: (57000, 0, 23500)
-	
-	fuel_price: 1.293
+	pos: (57500, 0, 26000)
 
-	fuel_price: 1.534
+	fuel_price: 1.245
 
 	lights_mandatory: true
 	driving_tired_offence: true

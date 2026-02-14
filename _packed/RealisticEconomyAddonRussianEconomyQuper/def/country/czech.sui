@@ -1,15 +1,16 @@
+
 country_data : country.data.czech
 {
 	country_id: 3
 
-	name: "Česká Republika"
+	name: "Česká republika"
 	name_localized: "@@czech@@"
 	country_code: "CZ"
 	iso_country_code: cze
 
 	pos: (18500, 0, 6000)
 
-	fuel_price: 1.245
+	fuel_price: 1.199
 
 	lights_mandatory: true
 	driving_tired_offence: true

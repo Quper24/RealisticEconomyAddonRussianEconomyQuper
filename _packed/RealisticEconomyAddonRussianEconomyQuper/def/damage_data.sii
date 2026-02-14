@@ -44,23 +44,23 @@ vehicle_damage_data : .damage_data
 	chassis_wear:		1.69e-6 	# Default 0.0
 	engine_wear:		3.33e-7	    # Default 2e-6
 	transmission_wear:	5e-7		# Default 2e-6
-	wheel_wear:			5e-6		# Default 2e-6
+	wheel_wear:			4e-6		# Default 2e-6
 
 	cabin_wear_unfixable:			5.82e-8 	# Default 0.0
 	chassis_wear_unfixable:			5.82e-8 	# Default 0.0
 	engine_wear_unfixable:			1e-7 	# Default 2e-7
 	transmission_wear_unfixable:	5e-7 	# Default 2e-7
-	wheel_wear_unfixable: 			1e-5		# Default 2e-5
+	wheel_wear_unfixable: 			8e-6		# Default 2e-5
 
 	# trailer wear per km of drive
 
 	trailer_body_wear:		1.24e-7 	# Default 0.0
 	trailer_chassis_wear:	1.37e-6 	# Default 0.0
-	trailer_wheel_wear:		2e-6		# Default 2e-6
+	trailer_wheel_wear:		1.6e-6		# Default 2e-6
 
 	trailer_body_wear_unfixable:		5.82e-8 	# Default 0.0
 	trailer_chassis_wear_unfixable:		5.82e-8 	# Default 0.0
-	trailer_wheel_wear_unfixable:		2e-5		# Default 2e-5
+	trailer_wheel_wear_unfixable:		1.6e-5		# Default 2e-5
 	
 	# permanent damage
 	

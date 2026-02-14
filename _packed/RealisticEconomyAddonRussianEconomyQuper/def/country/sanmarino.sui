@@ -9,7 +9,7 @@ country_data : country.data.sanmarino
 
 	pos: (3600, 0, 37000)
 
-	fuel_price: 1.356
+	fuel_price: 1.306
 
 	lights_mandatory: true
 	driving_tired_offence: true

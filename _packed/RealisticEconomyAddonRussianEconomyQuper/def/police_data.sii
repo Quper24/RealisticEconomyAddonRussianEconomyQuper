@@ -1,150 +1,150 @@
 SiiNunit
 {
-police_data : police.data
-{
-	# level based fines: min(base + level * step, limit), rounded up to multiple of rounding.
-	fine_factor_base: 0.25
-	fine_factor_step: 0.25
-	fine_factor_limit: 1.0
-	fine_amount_rounding: 1  
+	police_data : police.data
+	{
+		# level based fines: min(base + level * step, limit), rounded up to multiple of rounding.
+		fine_factor_base: 0.25
+		fine_factor_step: 0.25
+		fine_factor_limit: 1.0
+		fine_amount_rounding: 1
 
-	#########################
-	# Added by ØnYx
-	# Взял параметры у ØnYx
-	# Damaged vehicle offence
-	fine_core_damage_treshold : 0.5			# Fines are issued if core truck (without wheels) is damaged more than this threshold. Default 0.2 or 20%.
-	fine_wheels_damage_treshold: 0.6		# Fines are issued if wheel damage is greater than this threshold. Default is 0.6 or 60%.
-	warning_core_damage_treshold: 0.15		# Warning is issued if any truck part is damaged more than this threshold but below fine threshold. Default is 0.1 or 10%.
-	#########################
+		#########################
+		# Added by ØnYx
+		# Взял параметры у ØnYx
+		# Damaged vehicle offence
+		fine_core_damage_treshold : 0.5			# Fines are issued if core truck (without wheels) is damaged more than this threshold. Default 0.2 or 20%.
+		fine_wheels_damage_treshold: 0.6		# Fines are issued if wheel damage is greater than this threshold. Default is 0.6 or 60%.
+		warning_core_damage_treshold: 0.15		# Warning is issued if any truck part is damaged more than this threshold but below fine threshold. Default is 0.1 or 10%.
+		#########################
 
 
-	# speeding based progression: fine *= min( multiplier ^ (overspeed / step), limit), uses same rounding as above
-	fine_overspeed_step: 10               # каждые 10 км/ч — одна ступень
-	fine_overspeed_step_multiplier: 2     # каждый уровень удваивает штраф
-	fine_overspeed_multiplier_limit: 8    # максимальное усиление штрафа — ×8
-	
-	fine_amounts[0]: 50		# car crash
-	fine_amounts[1]: 15		# avoid sleeping
-	fine_amounts[2]: 75		# wrong way
-	fine_amounts[3]: 10 	# speeding (camera)
-	fine_amounts[4]: 5		# no lights during night
-	fine_amounts[5]: 15		# red lights
-	fine_amounts[6]: 10 	# speeding
-	fine_amounts[7]: 20	  # avoid weighing
-	fine_amounts[8]: 50		# illegal trailer
-	fine_amounts[9]: 50		# avoid inspection
-	fine_amounts[10]: 500	  # illegal border crossing
-	fine_amounts[11]: 50		# hard shoulder violation
-	fine_amounts[12]: 5		# damaged vehicle usage
+		# speeding based progression: fine *= min( multiplier ^ (overspeed / step), limit), uses same rounding as above
+		fine_overspeed_step: 10               # каждые 10 км/ч — одна ступень
+		fine_overspeed_step_multiplier: 2     # каждый уровень удваивает штраф
+		fine_overspeed_multiplier_limit: 8    # максимальное усиление штрафа — ×8
 
-	#
-	# in seconds of real time
-	#
-	offence_check_delay[0]: 0	# car crash
-	offence_check_delay[1]: 60	# avoid sleeping
-	offence_check_delay[2]: 15	# wrong way
-	offence_check_delay[3]: 0	# speeding (camera)
-	offence_check_delay[4]: 70	# no lights during night
-	offence_check_delay[5]: 0	# red lights
-	offence_check_delay[6]: 60	# speeding
-	offence_check_delay[7]: 0	# avoid weighing
-	offence_check_delay[8]: 600	# illegal trailer
+		fine_amounts[0]: 50		# car crash
+		fine_amounts[1]: 15		# avoid sleeping
+		fine_amounts[2]: 75		# wrong way
+		fine_amounts[3]: 10 	# speeding (camera)
+		fine_amounts[4]: 5		# no lights during night
+		fine_amounts[5]: 15		# red lights
+		fine_amounts[6]: 10 	# speeding
+		fine_amounts[7]: 20	  # avoid weighing
+		fine_amounts[8]: 50		# illegal trailer
+		fine_amounts[9]: 50		# avoid inspection
+		fine_amounts[10]: 500	  # illegal border crossing
+		fine_amounts[11]: 50		# hard shoulder violation
+		fine_amounts[12]: 5		# damaged vehicle usage
 
-	#
-	# in seconds of real time
-	#
-	offence_police_check_delay[0]: 0	# car crash
-	offence_police_check_delay[1]: 30	# avoid sleeping
-	offence_police_check_delay[2]: 5	# wrong way
-	offence_police_check_delay[3]: 0	# speeding (camera)
-	offence_police_check_delay[4]: 7	# no lights during night
-	offence_police_check_delay[5]: 0	# red lights
-	offence_police_check_delay[6]: 3	# speeding
-	offence_police_check_delay[7]: 0	# avoid weighing
-	offence_police_check_delay[8]: 300	# illegal trailer
+		#
+		# in seconds of real time
+		#
+		offence_check_delay[0]: 0	# car crash
+		offence_check_delay[1]: 120	# avoid sleeping
+		offence_check_delay[2]: 30	# wrong way
+		offence_check_delay[3]: 0	# speeding (camera)
+		offence_check_delay[4]: 90	# no lights during night
+		offence_check_delay[5]: 0	# red lights
+		offence_check_delay[6]: 60	# speeding
+		offence_check_delay[7]: 0	# avoid weighing
+		offence_check_delay[8]: 600	# illegal trailer
 
-	offence_probabilty[0]: 0.7	# car crash
-	offence_probabilty[1]: 0.3	# avoid sleeping
-	offence_probabilty[2]: 0.6	# wrong way
-	offence_probabilty[3]: 1.0	# speeding (camera)
-	offence_probabilty[4]: 0.3	# no lights during night
-	offence_probabilty[5]: 0.7	# red lights
-	offence_probabilty[6]: 0.0	# speeding
-	offence_probabilty[7]: 1.0	# avoid weighing
-	offence_probabilty[8]: 0.0	# illegal trailer
-	offence_probabilty[9]: 1.0	# avoid inspection
-	offence_probabilty[10]: 1.0	# illegal border crossing
-	offence_probabilty[11]: 1.0	# hard shoulder violation
-	offence_probabilty[12]: 1.0	# damaged vehicle usage
-	offence_probabilty[13]: 1.0	# illegal trailer (weight station)
+		#
+		# in seconds of real time
+		#
+		offence_police_check_delay[0]: 0	# car crash
+		offence_police_check_delay[1]: 60	# avoid sleeping
+		offence_police_check_delay[2]: 15	# wrong way
+		offence_police_check_delay[3]: 0	# speeding (camera)
+		offence_police_check_delay[4]: 30	# no lights during night
+		offence_police_check_delay[5]: 0	# red lights
+		offence_police_check_delay[6]: 30	# speeding
+		offence_police_check_delay[7]: 0	# avoid weighing
+		offence_police_check_delay[8]: 600	# illegal trailer
 
-	offence_police_probabilty[0]: 1.0	# car crash
-	offence_police_probabilty[1]: 0.3	# avoid sleeping
-	offence_police_probabilty[2]: 0.7	# wrong way
-	offence_police_probabilty[3]: 1.0	# speeding (camera)
-	offence_police_probabilty[4]: 0.8	# no lights during night
-	offence_police_probabilty[5]: 1.0	# red lights
-	offence_police_probabilty[6]: 0.9	# speeding
-	offence_police_probabilty[7]: 1.0	# avoid weighing
-	offence_police_probabilty[8]: 0.3	# illegal trailer
-	offence_police_probabilty[9]: 1.0	# avoid inspection
-	offence_police_probabilty[10]: 1.0	# illegal border crossing
-	offence_police_probabilty[11]: 1.0	# hard shoulder violation
-	offence_police_probabilty[12]: 1.0	# damaged vehicle usage
-	offence_police_probabilty[13]: 1.0	# illegal trailer (weight station)
+		offence_probabilty[0]: 0.7	# car crash
+		offence_probabilty[1]: 0.3	# avoid sleeping
+		offence_probabilty[2]: 0.6	# wrong way
+		offence_probabilty[3]: 1.0	# speeding (camera)
+		offence_probabilty[4]: 0.3	# no lights during night
+		offence_probabilty[5]: 0.7	# red lights
+		offence_probabilty[6]: 0.0	# speeding
+		offence_probabilty[7]: 1.0	# avoid weighing
+		offence_probabilty[8]: 0.0	# illegal trailer
+		offence_probabilty[9]: 1.0	# avoid inspection
+		offence_probabilty[10]: 1.0	# illegal border crossing
+		offence_probabilty[11]: 1.0	# hard shoulder violation
+		offence_probabilty[12]: 1.0	# damaged vehicle usage
+		offence_probabilty[13]: 1.0	# illegal trailer (weight station)
 
-	# car crash
-	offence_message[0]: "<img src=/material/ui/hud/car_crash.mat kr=center><br offset=-5>@@offence_crash@@"
+		offence_police_probabilty[0]: 1.0	# car crash
+		offence_police_probabilty[1]: 0.3	# avoid sleeping
+		offence_police_probabilty[2]: 0.7	# wrong way
+		offence_police_probabilty[3]: 1.0	# speeding (camera)
+		offence_police_probabilty[4]: 0.8	# no lights during night
+		offence_police_probabilty[5]: 1.0	# red lights
+		offence_police_probabilty[6]: 0.9	# speeding
+		offence_police_probabilty[7]: 1.0	# avoid weighing
+		offence_police_probabilty[8]: 0.3	# illegal trailer
+		offence_police_probabilty[9]: 1.0	# avoid inspection
+		offence_police_probabilty[10]: 1.0	# illegal border crossing
+		offence_police_probabilty[11]: 1.0	# hard shoulder violation
+		offence_police_probabilty[12]: 1.0	# damaged vehicle usage
+		offence_police_probabilty[13]: 1.0	# illegal trailer (weight station)
 
-	# avoid sleeping
-	offence_message[1]: "<img src=/material/ui/hud/sleepy_driver.mat kr=center><br offset hshift=-5>@@offence_sleeping@@"
+		# car crash
+		offence_message[0]: "<img src=/material/ui/hud/car_crash.mat kr=center><br offset=-5>@@offence_crash@@"
 
-	# wrong way
-	offence_message[2]: "<img src=/material/ui/hud/wrong_way.mat kr=center><br offset=-5>@@offence_wrong_way@@"
+		# avoid sleeping
+		offence_message[1]: "<img src=/material/ui/hud/sleepy_driver.mat kr=center><br offset hshift=-5>@@offence_sleeping@@"
 
-	# speeding (camera)
-	offence_message[3]: "<img src=/material/ui/hud/speed_camera.mat kr=center><br offset=-5>@@offence_speeding@@"
+		# wrong way
+		offence_message[2]: "<img src=/material/ui/hud/wrong_way.mat kr=center><br offset=-5>@@offence_wrong_way@@"
 
-	# no lights during night
-	offence_message[4]: "<img src=/material/ui/hud/head_lights.mat kr=center><br offset=-5>@@offence_lights@@"
+		# speeding (camera)
+		offence_message[3]: "<img src=/material/ui/hud/speed_camera.mat kr=center><br offset=-5>@@offence_speeding@@"
 
-	# red lights
-	offence_message[5]: "<img src=/material/ui/hud/red_light.mat kr=center><br offset=-5>@@offence_red_signal@@"
+		# no lights during night
+		offence_message[4]: "<img src=/material/ui/hud/head_lights.mat kr=center><br offset=-5>@@offence_lights@@"
 
-	# speeding
-	offence_message[6]: "<img src=/material/ui/hud/speed_camera.mat kr=center><br offset=-5>@@offence_speeding@@"
+		# red lights
+		offence_message[5]: "<img src=/material/ui/hud/red_light.mat kr=center><br offset=-5>@@offence_red_signal@@"
 
-	# avoid weighing
-	offence_message[7]: "<img src=/material/ui/hud/avoid_weighing.mat kr=center><br offset=-5>@@offence_weighing@@"
+		# speeding
+		offence_message[6]: "<img src=/material/ui/hud/speed_camera.mat kr=center><br offset=-5>@@offence_speeding@@"
 
-	# illegal trailer
-	offence_message[8]: "<img src=/material/ui/hud/illegal_trailer.mat kr=center><br offset=-5>@@offence_illegal_trailer@@"
+		# avoid weighing
+		offence_message[7]: "<img src=/material/ui/hud/avoid_weighing.mat kr=center><br offset=-5>@@offence_weighing@@"
 
-	# avoid inspection
-	offence_message[9]: "<img src=/material/ui/hud/avoid_inspection.mat kr=center><br offset=-5>@@offence_avoid_inspection@@"
+		# illegal trailer
+		offence_message[8]: "<img src=/material/ui/hud/illegal_trailer.mat kr=center><br offset=-5>@@offence_illegal_trailer@@"
 
-	# illegal border crossing
-	offence_message[10]: "<img src=/material/ui/hud/avoid_inspection.mat kr=center><br offset=-5>@@offence_illegal_border@@"
+		# avoid inspection
+		offence_message[9]: "<img src=/material/ui/hud/avoid_inspection.mat kr=center><br offset=-5>@@offence_avoid_inspection@@"
 
-	# hard shoulder violation
-	offence_message[11]: "<img src=/material/ui/hud/eds.mat kr=center><br offset=-5>@@offence_shoulder_violation@@"
+		# illegal border crossing
+		offence_message[10]: "<img src=/material/ui/hud/avoid_inspection.mat kr=center><br offset=-5>@@offence_illegal_border@@"
 
-	# damaged vehicle usage
-	offence_message[12]: "<img src=/material/ui/hud/damaged_vehicle.mat kr=center><br offset=-5>@@offence_damaged_vehicle_usage@@"
+		# hard shoulder violation
+		offence_message[11]: "<img src=/material/ui/hud/eds.mat kr=center><br offset=-5>@@offence_shoulder_violation@@"
 
-	# illegal trailer (weight station)
-	offence_message[13]: "<img src=/material/ui/hud/illegal_trailer.mat kr=center><br offset=-5>@@offence_illegal_trailer@@"
+		# damaged vehicle usage
+		offence_message[12]: "<img src=/material/ui/hud/damaged_vehicle.mat kr=center><br offset=-5>@@offence_damaged_vehicle_usage@@"
 
-	# timer decrease rate how much time it takes to decrease timer by 1 second (in seconds of real time)
-	timer_decrease_rate: 120	# 2 minutes
+		# illegal trailer (weight station)
+		offence_message[13]: "<img src=/material/ui/hud/illegal_trailer.mat kr=center><br offset=-5>@@offence_illegal_trailer@@"
 
-	# police offence information message delay in seconds of real time
-	message_delay: 4.0
+		# timer decrease rate how much time it takes to decrease timer by 1 second (in seconds of real time)
+		timer_decrease_rate: 120	# 2 minutes
 
-	# increase fine if there is some police car nearby
-	police_nearby_fine_rate: 2
+		# police offence information message delay in seconds of real time
+		message_delay: 4.0
 
-	# how often can nearby police car impose a fine
-	police_nearby_offence_timer: 15.0
-}
+		# increase fine if there is some police car nearby
+		police_nearby_fine_rate: 2
+
+		# how often can nearby police car impose a fine
+		police_nearby_offence_timer: 15.0
+	}
 }

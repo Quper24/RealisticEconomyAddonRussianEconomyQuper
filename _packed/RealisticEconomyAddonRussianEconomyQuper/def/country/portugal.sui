@@ -1,3 +1,4 @@
+﻿
 country_data : country.data.portugal
 {
 	country_id: 36
@@ -9,7 +10,7 @@ country_data : country.data.portugal
 
 	pos: (-87500, 0, 47000)
 
-	fuel_price: 1.41
+	fuel_price: 1.358
 
 	lights_mandatory: false
 	driving_tired_offence: true
