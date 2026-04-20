@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.yakutsk.tiksi {
+	price: 73
+	time: 2041
+	distance: 1530
+}
+}
+
