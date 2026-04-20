@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.alat.kuryk{
-	price: 28
-	time: 701
+	price: 25
+	time: 624
 	distance: 467
 
 	# NODE POSITIONS #######    x*256 , 0,   z*256

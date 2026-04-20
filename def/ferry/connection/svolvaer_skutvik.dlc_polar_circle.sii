@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.svolvaer.skutvik {
-	price: 7
-	time: 61
+	price: 6
+	time: 54
 	distance: 40
 
 connection_positions[0]: (3355486, 0, -25688060)

@@ -2,8 +2,8 @@ SiiNunit
 {
 ferry_connection: conn.quellon.chaiten
 {
-	price: 9
-	time: 121
+	price: 8
+	time: 108
 	distance: 80
 
 }

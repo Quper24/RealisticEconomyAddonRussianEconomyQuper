@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.longyearbyen.vardo{
-	price: 60
-	time: 1676
+	price: 54
+	time: 1490
 	distance: 1117
 
 	# NODE POSITIONS ########    x*256  , 0,   z*256

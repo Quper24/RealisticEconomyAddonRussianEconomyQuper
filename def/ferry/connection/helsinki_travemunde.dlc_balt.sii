@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.helsinki.travemunde {
-	price: 67
-	time: 1883
+	price: 60
+	time: 1674
 	distance: 1255
 	
 	connection_positions[0]: (11597040, 0, -14143756)

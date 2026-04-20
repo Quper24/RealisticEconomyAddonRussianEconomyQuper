@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.nmg.dali {
-	price: 140
-	time: 4051
+	price: 125
+	time: 3601
 	distance: 2700
 }
 }

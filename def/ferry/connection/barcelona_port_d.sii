@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.barcelona.port_d {
-	price: 14
-	time: 296
+	price: 13
+	time: 264
 	distance: 197
 }
 }

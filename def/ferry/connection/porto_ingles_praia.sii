@@ -1,0 +1,8 @@
+SiiNunit
+{
+ferry_connection : conn.porto_ingles.praia {
+	price: 6
+	time: 60
+	distance: 44
+}
+}

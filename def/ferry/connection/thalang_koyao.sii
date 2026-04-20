@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.thalang.koyao {
-	price: 6
-	time: 34
+	price: 5
+	time: 30
 	distance: 22
 }
 }

@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.dalian.mersing{
-	price: 205
-	time: 6001
+	price: 182
+	time: 5334
 	distance: 4000
 }
 

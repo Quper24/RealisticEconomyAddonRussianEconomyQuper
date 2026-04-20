@@ -3,7 +3,7 @@ SiiNunit
 ferry_connection: conn.sangregorio.primavera
 {
 	price: 5
-	time: 13
+	time: 12
 	distance: 8
 
 }

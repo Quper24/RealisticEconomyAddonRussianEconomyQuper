@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.mtmon.collonges {
-	price: 22
-	time: 518
+	price: 20
+	time: 461
 	distance: 345
 }
 }

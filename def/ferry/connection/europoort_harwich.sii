@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.europoort.harwich {
-	price: 15
-	time: 311
+	price: 14
+	time: 277
 	distance: 207
 }
 }

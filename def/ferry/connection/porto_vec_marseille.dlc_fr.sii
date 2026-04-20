@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.porto_vec.marseille {
-	price: 27
-	time: 689
+	price: 25
+	time: 613
 	distance: 459
 	
 	connection_positions[0]: (-1875968, 0, 13068590)

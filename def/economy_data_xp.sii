@@ -121,7 +121,6 @@
 		level_xp[99]: 249500
 		level_xp[100]: 254500
 
-
-		driver_xp_scale: 2.0
+		driver_xp_scale: 1.0
 	}
 }

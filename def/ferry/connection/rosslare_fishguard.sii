@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.rosslare.fishguard{
-	price: 10
-	time: 160
+	price: 9
+	time: 142
 	distance: 106
 
 	# NODE POSITIONS #######    x*256  , 0,   z*256

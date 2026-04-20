@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.kalamata.chania {
-	price: 19 # approx based on rhodes/athens
-	time: 436
+	price: 17 # approx based on rhodes/athens
+	time: 388
 	distance: 290
 
 connection_positions[0]: (13057878, 0, 19877404)

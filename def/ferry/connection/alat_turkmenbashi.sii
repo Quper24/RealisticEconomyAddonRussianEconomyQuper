@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.alat.turkmenbashi{
-	price: 23
-	time: 547
+	price: 21
+	time: 486
 	distance: 364
 
 }

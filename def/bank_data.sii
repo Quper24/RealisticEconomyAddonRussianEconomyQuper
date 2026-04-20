@@ -3,46 +3,44 @@ SiiNunit
 
 	bank_data : bank.data.storage
 	{
-		min_after_loan_repay:	0
+		min_after_loan_repay:	-1000
 
 		loan_offers[]: bank.data.loan1
 		loan_offers[]: bank.data.loan2
 		loan_offers[]: bank.data.loan3
 		loan_offers[]: bank.data.loan4
 
-		overdraft_duration: 31    # days
-		overdraft_warn_day: 15    # starting on 3rd day
+		overdraft_duration:	14	# days
+		overdraft_warn_day:	5	# starting on 3rd day
+
 	}
 
-	# Малый кредит — старт бизнеса
 	bank_loan_data: bank.data.loan1
 	{
-		amount: 5000           # 500 000 ₽
-		interest_rate: 0.22     # 22% годовых
-		duration: 52           # 1 год
+		amount: 10000
+		interest_rate: 0.10	# 23 %
+		duration: 10		# in weeks
 	}
 
-	# Развитие компании
 	bank_loan_data: bank.data.loan2
 	{
-		amount: 15000          # 1 500 000 ₽
-		interest_rate: 0.20     # 20% годовых
-		duration: 78           # 1.5 года
+		amount: 50000
+		interest_rate: 0.12	# 18 %
+		duration: 20		# in weeks
 	}
 
-	# Покупка прицепа / второго авто
 	bank_loan_data: bank.data.loan3
 	{
-		amount: 50000          # 5 000 000 ₽
-		interest_rate: 0.18     # 18% годовых
-		duration: 104          # 2 года
+		amount: 100000
+		interest_rate: 0.15	# 14 %
+		duration: 30		# in weeks
 	}
 
-	# Расширение бизнеса
 	bank_loan_data: bank.data.loan4
 	{
-		amount: 100000         # 10 000 000 ₽
-		interest_rate: 0.16     # 16% годовых
-		duration: 156          # 3 года
+		amount: 400000
+		interest_rate: 0.18	# 10 %
+		duration: 50		# in weeks
 	}
+
 }

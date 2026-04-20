@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.visby.nynashamn{
-	price: 12
-	time: 223
+	price: 11
+	time: 198
 	distance: 148
 
 	# NODE POSITIONS #######   x*256 , 0,   z*256

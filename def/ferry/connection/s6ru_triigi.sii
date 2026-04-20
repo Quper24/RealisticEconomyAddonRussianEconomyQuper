@@ -2,7 +2,7 @@ SiiNunit
 {
 ferry_connection : conn.s6ru.triigi{
 	price: 5
-	time: 26
+	time: 24
 	distance: 17
 
 	# NODE POSITIONS #######    x*256 , 0,   z*256

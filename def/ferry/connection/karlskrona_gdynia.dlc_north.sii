@@ -1,9 +1,34 @@
 SiiNunit
 {
 ferry_connection : conn.karlskrona.gdynia {
-	price: 21
-	time: 488
+	price: 19
+	time: 434
 	distance: 325
-}
-}
 
+	# NODE POSITIONS #######    x*256 , 0,  z*256
+	connection_positions[0]:  (4501812, 0, -7571660)
+	connection_positions[1]:  (4501504, 0, -7557606)
+	connection_positions[2]:  (4477876, 0, -7561548)
+	connection_positions[3]:  (4462336, 0, -7584716)
+	connection_positions[4]:  (4443904, 0, -7573888)
+	connection_positions[5]:  (4458086, 0, -7501594)
+	connection_positions[6]:  (7589580, 0, -5809254)
+	connection_positions[7]:  (7601612, 0, -5536256)
+	connection_positions[8]:  (7183334, 0, -5639604)
+	connection_positions[9]:  (7179162, 0, -5647514)
+	connection_positions[10]: (7184538, 0, -5652684)
+
+	# NODE ROTATIONS #######   -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]:  ( 0.5,     0,  0.86603)
+	connection_directions[1]:  (-0.99619, 0, -0.08716)
+	connection_directions[2]:  (-0.42262, 0, -0.90631)
+	connection_directions[3]:  (-1,       0,  0      )
+	connection_directions[4]:  ( 0,       0,  1      )
+	connection_directions[5]:  ( 0.86603, 0,  0.5    )
+	connection_directions[6]:  ( 0.86603, 0,  0.5    )
+	connection_directions[7]:  (-0.86603, 0,  0.5    )
+	connection_directions[8]:  (-0.93969, 0, -0.34202)
+	connection_directions[9]:  ( 0.86603, 0, -0.5    )
+	connection_directions[10]: ( 0.98481, 0, -0.17365)
+}
+}

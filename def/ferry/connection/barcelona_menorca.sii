@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.barcelona.menorca{
-	price: 15
-	time: 301
+	price: 13
+	time: 268
 	distance: 200
 
 }

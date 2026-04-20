@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.benghazi.calais {
-	price: 15
-	time: 325
+	price: 14
+	time: 289
 	distance: 216
 }
 }

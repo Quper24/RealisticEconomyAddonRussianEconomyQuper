@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.samsun.odessa {
-	price: 41
-	time: 1099
+	price: 37
+	time: 977
 	distance: 732
 	# NODE POSITIONS ########   x*256  , 0,  z*256
 	connection_positions[0]: (21744640, 0, 6685184)

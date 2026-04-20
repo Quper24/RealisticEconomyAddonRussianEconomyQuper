@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.khaiyr.nayba {
+	price: 13
+	time: 268
+	distance: 200
+}
+}
+

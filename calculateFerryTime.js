@@ -3,7 +3,7 @@ const path = require("path");
 
 // Функция для расчета времени парома
 function calculateFerryTime(distance) {
-  const maxSpeed = 40; // км/ч (крейсерская скорость)
+  const maxSpeed = 45; // км/ч (крейсерская скорость)
   const acceleration = 0.2; // м/с² (ускорение и торможение)
 
   // Перевод скорости в м/с

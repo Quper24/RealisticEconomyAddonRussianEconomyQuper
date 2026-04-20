@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.mersin.ambarli{
-	price: 97
-	time: 2761
+	price: 86
+	time: 2454
 	distance: 1840
 
 	# NODE POSITIONS ########   x*256  , 0,  z*256

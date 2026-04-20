@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.ciutadella.algiers {
-	price: 19
-	time: 446
+	price: 18
+	time: 397
 	distance: 297
 }
 }

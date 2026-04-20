@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.silifke.beirut{
-	price: 21
-	time: 503
+	price: 19
+	time: 448
 	distance: 335
 
 	# NODE POSITIONS #######   x*256  , 0,  z*256

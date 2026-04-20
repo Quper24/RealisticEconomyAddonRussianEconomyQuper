@@ -2,7 +2,7 @@ SiiNunit
 {
 ferry_connection : conn.kawthaung.ranong {
 	price: 5
-	time: 22
+	time: 20
 	distance: 14
 }
 }

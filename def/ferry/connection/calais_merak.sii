@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.calais.merak {
-	price: 504
-	time: 14999
+	price: 449
+	time: 13333
 	distance: 9999
 	
 	# Posisi titik belok jalur ferry, rumus >>  titik horizontal*256  ;  titik vertikal*256

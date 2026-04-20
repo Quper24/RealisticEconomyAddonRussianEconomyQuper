@@ -1,12 +1,25 @@
 SiiNunit
 {
 ferry_connection : conn.gdansk.nynashamn {
-	price: 30
-	time: 773
+	price: 27
+	time: 688
 	distance: 515
 
-	connection_positions[0]: (6257786, 0, -9533148)
-	connection_directions[0]: (-0.181081, 0.000000, -0.983468)
+	# NODE POSITIONS #######   x*256 , 0,   z*256
+	connection_positions[0]: (7390490, 0,  -5274880)
+	connection_positions[1]: (7394944, 0,  -5316940)
+	connection_positions[2]: (7703168, 0,  -5678720)
+	connection_positions[3]: (6384948, 0,  -9520436)
+	connection_positions[4]: (6900864, 0, -11785728)
+	connection_positions[5]: (6845312, 0, -11814476)
+
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+	connection_directions[0]: (-0.5    , 0, -0.86603)
+	connection_directions[1]: ( 0.96593, 0, -0.25882)
+	connection_directions[2]: (-0.25882, 0, -0.96593)
+	connection_directions[3]: ( 0,       0, -1      )
+	connection_directions[4]: ( 0.08716, 0, -0.99619)
+	connection_directions[5]: (-0.76604, 0,  0.64279)
 }
 }
 

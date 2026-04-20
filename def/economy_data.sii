@@ -14,38 +14,38 @@
 		garage_prod_plan_small: 10000
 		garage_prod_plan_large: 20000
 
-		fuel_discount_in_garage: 0.15	# 15%
+		fuel_discount_in_garage: 0.2	# 20%
 
 		truck_count_for_online:	0	# number of owned trucks to unlock buying online feature
 
 		abandoned_job_fine: 150
 
-		cargo_damage_cost: 4.0 		# -5 Euro per 1% of damage
-		cargo_damage_cost_factor: 0.05 	# -4% total cost penalty per 1% of damage
+		cargo_damage_cost: 3.0 		# -3 Euro per 1% of damage
+		cargo_damage_cost_factor: 0.04 	# -4% total cost penalty per 1% of damage
 
-		late_delivery_max_overtime[0]: 2880	# 2 days for "easy" deliveries
-		late_delivery_max_overtime[1]: 720	# 12 hours for "normal" deliveries
-		late_delivery_max_overtime[2]: 240	# 4 hours for "urgent" deliveries
+		late_delivery_max_overtime[0]: 4320	# 2 days for "easy" deliveries
+		late_delivery_max_overtime[1]: 1440	# 12 hours for "normal" deliveries
+		late_delivery_max_overtime[2]: 480	# 4 hours for "urgent" deliveries
 
 		simulation_avg_speed: 50.0	# km/h
 
 		default_time_zone: 180		# +2 hours
-		default_time_zone_name: "CEST"
+		default_time_zone_name: "MSK"
 
 		maximum_driving_time: 660	# how long the driver can drive (in minutes)
 		sleeping_time: 540		# length of sleep (in minutes)
 
-		delivery_window[0]: 480		# easy
-		delivery_window[1]: 300		# medium
+		delivery_window[0]: 600		# easy
+		delivery_window[1]: 360		# medium
 		delivery_window[2]: 120		# hard
 
 		delivery_window_coef[0]: 1.0	# easy
-		delivery_window_coef[1]: 1.15	# medium  revenue coef
-		delivery_window_coef[2]: 1.4	# hard
+		delivery_window_coef[1]: 1.2	# medium  revenue coef
+		delivery_window_coef[2]: 1.5	# hard
 
-		hurry_up_timer: 114		# how long the hurry up music will play (in game minutes)
+		hurry_up_timer: 30		# how long the hurry up music will play (in game minutes)
 
-		no_cargo_prob:	0.2		# 20% prob. of empty cargo slot
+		no_cargo_prob:	0.1		# 10% prob. of empty cargo slot
 		cargo_validity_min: 180		# 3 hours
 		cargo_validity_max: 1800	# 30 hours
 
@@ -92,72 +92,20 @@
 
 		##
 		## Skill job filtering
-		##  Job distance limit (in km of real world)
 		##
-		skill_distance[0]:	400
-		skill_distance[1]:	750
-		skill_distance[2]:	1500
-		skill_distance[3]:	2500
-		skill_distance[4]:	3500
-		skill_distance[5]:	5000
 
 		fixed_revenue: 40
 		revenue_coef_per_km: 0.048			# Revenue coefficient per km used during freight market jobs.
 		cargo_market_revenue_coef_per_km: 0.073 		# Revenue coefficient per km used during cargo market jobs.
-
-		max_eco_consumption_drop[0]: (0.1, 0.1)		# consumption decreased by 40% (or 60% if driving with trailer)
-		# for ecodriving skill maximum
-		max_eco_consumption_drop[1]: (0.15, 0.15)
-		max_eco_consumption_drop[2]: (0.2, 0.2)
-		max_eco_consumption_drop[3]: (0.25, 0.25)
-		max_eco_consumption_drop[4]: (0.3, 0.3)
-		max_eco_consumption_drop[5]: (0.35, 0.35)	# Maximum consumption drop is 0.99.
-
-		reward_bonus_long_dist[0]: 0.02
-		reward_bonus_long_dist[1]: 0.03
-		reward_bonus_long_dist[2]: 0.04
-		reward_bonus_long_dist[3]: 0.05
-		reward_bonus_long_dist[4]: 0.06
-		reward_bonus_long_dist[5]: 0.07
-
-		reward_bonus_valuable[0]: 0.02
-		reward_bonus_valuable[1]: 0.03
-		reward_bonus_valuable[2]: 0.04
-		reward_bonus_valuable[3]: 0.05
-		reward_bonus_valuable[4]: 0.06
-		reward_bonus_valuable[5]: 0.07
-
-		reward_bonus_fragile[0]: 0.02
-		reward_bonus_fragile[1]: 0.03
-		reward_bonus_fragile[2]: 0.04
-		reward_bonus_fragile[3]: 0.05
-		reward_bonus_fragile[4]: 0.06
-		reward_bonus_fragile[5]: 0.07
-
-		reward_bonus_urgent[0]: 0.02
-		reward_bonus_urgent[1]: 0.03
-		reward_bonus_urgent[2]: 0.04
-		reward_bonus_urgent[3]: 0.05
-		reward_bonus_urgent[4]: 0.06
-		reward_bonus_urgent[5]: 0.07
 
 		reward_bonus_level: 0.03
 
 		#  Experience points
 		free_roam_report_limit: 100
 
-		exp_cargo_delivery: 	1.5			# per km of real world
-		exp_free_roam: 		0.5			# per km of real world
-		exp_road_discovery:	1			# per km of real world
-
-		//	exp_late_delivery: 	0.4		# -40%
-		exp_perfect_delivery: 	0.8		# +30%
-		exp_adr_bonus:		0.4		# +40%	of total cargo delivery exp. points
-		exp_important_bonus:	0.3		# +30%
-		exp_urgent_bonus:	0.3		# +30%
-		exp_fragile_bonus:	0.3		# +30%
-		exp_long_dist_bonus:	0.3		# +30%
-		exp_valuable_bonus:	0.25		# +25%
+		exp_cargo_delivery: 	1.5		# per km of real world
+		exp_free_roam: 		0.5		# per km of real world
+		exp_road_discovery:	1		# per km of real world
 
 		exp_park_bonus: 15			# bonus for not using the autopark feature on EASY parking spot
 		exp_park_bonus_medium: 40		# bonus for not using the autopark feature on MEDIUM parking spot
@@ -246,49 +194,49 @@
 		currency_sign3[]: ""
 
 		currency_code[]: "CHF"
-		currency_ratio[]: 1.00
+		currency_ratio[]: 1.04
 		currency_sign1[]: ""
 		currency_sign2[]: ""
-		currency_sign3[]: " Fr"
+		currency_sign3[]: " CHF"
 
 		currency_code[]: "CZK"
-		currency_ratio[]: 26.48
+		currency_ratio[]: 27.51
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " Kč"
 
 		currency_code[]: "GBP"
-		currency_ratio[]: 0.95
+		currency_ratio[]: 0.99
 		currency_sign1[]: ""
 		currency_sign2[]: "£"
 		currency_sign3[]: ""
 
 		currency_code[]: "PLN"
-		currency_ratio[]: 4.59
+		currency_ratio[]: 4.79
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " zł"
 
 		currency_code[]: "HUF"
-		currency_ratio[]: 413.66
+		currency_ratio[]: 409.82
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " Ft"
 
 		currency_code[]: "DKK"
-		currency_ratio[]: 8.14
+		currency_ratio[]: 8.45
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " kr"
 
 		currency_code[]: "SEK"
-		currency_ratio[]: 11.57
+		currency_ratio[]: 12.22
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " kr"
 
 		currency_code[]: "NOK"
-		currency_ratio[]: 12.32
+		currency_ratio[]: 12.48
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " kr"
@@ -299,68 +247,68 @@
 		currency_sign2[]: "₽"
 		currency_sign3[]: ""
 
-		currency_code[]: "BGN"
-		currency_ratio[]: 2.14
+		currency_code[]: "BGN*"
+		currency_ratio[]: NaN
 		currency_sign1[]: ""
 		currency_sign2[]: "лв"
 		currency_sign3[]: ""
 
 		currency_code[]: "RON"
-		currency_ratio[]: 5.55
+		currency_ratio[]: 5.78
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " lei"
 
 		currency_code[]: "TRY"
-		currency_ratio[]: 56.61
+		currency_ratio[]: 59.69
 		currency_sign1[]: ""
 		currency_sign2[]: "₺"
 		currency_sign3[]: ""
 
 		currency_code[]: "ALL"
-		currency_ratio[]: 105.16
+		currency_ratio[]: 108.29
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " lek"
 
 		currency_code[]: "BAM"
-		currency_ratio[]: 2.14
+		currency_ratio[]: 2.22
 		currency_sign1[]: ""
 		currency_sign2[]: "KM "
 		currency_sign3[]: ""
 
 		currency_code[]: "MKD"
-		currency_ratio[]: 67.33
+		currency_ratio[]: 69.87
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " ден"
 
 		currency_code[]: "RSD"
-		currency_ratio[]: 128.12
+		currency_ratio[]: 132.90
 		currency_sign1[]: ""
 		currency_sign2[]: "дин "
 		currency_sign3[]: ""
 
 		currency_code[]: "UAH"
-		currency_ratio[]: 55.80
+		currency_ratio[]: 58.69
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " грн"
 
 		currency_code[]: "KZT"
-		currency_ratio[]: 640.46
+		currency_ratio[]: 626.44
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " тг"
 
 		currency_code[]: "BYN"
-		currency_ratio[]: 3.69
+		currency_ratio[]: 3.78
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " бел. руб"
 
 		currency_code[]: "CNY"
-		currency_ratio[]: 8.95
+		currency_ratio[]: 9.08
 		currency_sign1[]: ""
 		currency_sign2[]: ""
 		currency_sign3[]: " CNY"

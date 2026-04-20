@@ -2,7 +2,7 @@ SiiNunit
 {
 ferry_connection : conn.granville.sthelier {
 	price: 7
-	time: 83
+	time: 74
 	distance: 55
 
 	# NODE POSITIONS #######    x*256  , 0,  z*256

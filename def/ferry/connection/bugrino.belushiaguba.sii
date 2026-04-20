@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.bugrino.belushiaguba {
-	price: 21
-	time: 493
+	price: 19
+	time: 438
 	distance: 328
 }
 }

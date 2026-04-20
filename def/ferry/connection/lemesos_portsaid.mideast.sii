@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.lemesos.portsaid{
-	price: 24
-	time: 578
+	price: 22
+	time: 514
 	distance: 385
 
 	# NODE POSITIONS ########   x*256  , 0,  z*256

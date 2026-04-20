@@ -1,25 +1,38 @@
 SiiNunit
 {
 ferry_connection : conn.patras.ancona {
-	price: 53
-	time: 1441
+	price: 47
+	time: 1281
 	distance: 960
 
-connection_positions[0]: (11845613, 0, 17939346)
-connection_positions[1]: (11275308, 0, 18001227)
-connection_positions[2]: (10476564, 0, 17468378)
-connection_positions[3]: (9705687, 0, 16519459)
-connection_positions[4]: (7408814, 0, 13426308)
-connection_positions[5]: (3235513, 0, 10096767)
-connection_positions[6]: (2870055, 0, 9928883)
+	# NODE POSITIONS #######   x*256  , 0,  z*256
+connection_positions[0]: (11958963, 0, 17973308)
+connection_positions[1]: (11961914, 0, 17936389)
+connection_positions[2]: (11917225, 0, 17915006)
+connection_positions[3]: (11272712, 0, 18007753)
+connection_positions[4]: (10397947, 0, 17459707)
+connection_positions[5]: (8748917, 0, 14901918)
+connection_positions[6]: (7414307, 0, 13238202)
+connection_positions[7]: (6905741, 0, 12746324)
+connection_positions[8]: (3985395, 0, 10049716)
+connection_positions[9]: (2702393, 0, 9875382)
+connection_positions[10]: (2697408, 0, 9929433)
+connection_positions[11]: (2791035, 0, 9968965)
+connection_positions[12]: (2822810, 0, 10016891)
 
-connection_directions[0]: (-0.928313, 0.000029, -0.371799)
-connection_directions[1]: (-0.982442, 0.000034, -0.186569)
-connection_directions[2]: (-0.892547, 0.000022, -0.450955)
-connection_directions[3]: (-0.559190, 0.000014, -0.829039)
-connection_directions[4]: (-0.654367, 0.000003, -0.756177)
-connection_directions[5]: (-0.778982, -0.000016, -0.627047)
-connection_directions[6]: (-0.962170, 0.000000, 0.272449)
-
+	# NODE ROTATIONS #######  -sin(jaw), 0, -cos(jaw)
+connection_directions[0]: (0.783435, -0.000000, -0.621474)
+connection_directions[1]: (-0.621473, -0.000000, -0.783435)
+connection_directions[2]: (-0.998377, -0.000000, -0.056956)
+connection_directions[3]: (-0.978367, -0.000000, -0.206876)
+connection_directions[4]: (-0.939693, -0.000000, -0.342020)
+connection_directions[5]: (-0.642788, -0.000000, -0.766044)
+connection_directions[6]: (-0.675276, -0.000000, -0.737566)
+connection_directions[7]: (-0.766045, -0.000000, -0.642787)
+connection_directions[8]: (-0.642788, -0.000000, -0.766044)
+connection_directions[9]: (-0.771198, -0.000000, 0.636595)
+connection_directions[10]: (0.636596, -0.000000, 0.771198)
+connection_directions[11]: (0.758133, -0.000000, 0.652100)
+connection_directions[12]: (0.246958, -0.000000, 0.969026)
 }
 }

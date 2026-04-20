@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.tunnel_f.yaransk {
-	price: 105
-	time: 3001
+	price: 93
+	time: 2668
 	distance: 2000
 }
 }
