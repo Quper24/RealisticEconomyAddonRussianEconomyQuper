@@ -30,7 +30,7 @@
 		simulation_avg_speed: 50.0	# km/h
 
 		default_time_zone: 180		# +2 hours
-		default_time_zone_name: "MSK"
+		default_time_zone_name: "CEST"
 
 		maximum_driving_time: 660	# how long the driver can drive (in minutes)
 		sleeping_time: 540		# length of sleep (in minutes)
