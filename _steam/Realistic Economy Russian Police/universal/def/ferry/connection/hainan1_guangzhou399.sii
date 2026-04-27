@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.hainan1.guangzhou399 {
-	price: 71
-	time: 2010
-	distance: 1507
-}
-}
-

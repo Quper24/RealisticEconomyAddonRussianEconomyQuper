@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.komso.helsinki {
-	price: 525
-	time: 15601
-	distance: 11700
-}
-}
-

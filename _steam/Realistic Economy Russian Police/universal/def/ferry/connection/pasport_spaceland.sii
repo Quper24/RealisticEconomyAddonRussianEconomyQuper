@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.pasport.spaceland {
-	price: 5
-	time: 14
-	distance: 10
-}
-}
-

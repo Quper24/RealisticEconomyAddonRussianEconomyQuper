@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.nmg.dali {
-	price: 125
-	time: 3601
-	distance: 2700
-}
-}
-

@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.poti.zonguldak {
-	price: 7
-	time: 88
-	distance: 65
-}
-}
-

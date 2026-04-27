@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.kavala.canakkale {
-	price: 26
-	time: 641
-	distance: 480
-}
-}
-

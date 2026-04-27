@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.baybulls.stjons {
-	price: 20
-	time: 468
-	distance: 350
-}
-}

@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.severodvinsk.kotlas {
-	price: 20
-	time: 476
-	distance: 356
-}
-}
-

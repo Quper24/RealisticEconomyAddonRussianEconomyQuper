@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.sjelland.aarhus{
-	price: 8
-	time: 97
-	distance: 72
-}
-}

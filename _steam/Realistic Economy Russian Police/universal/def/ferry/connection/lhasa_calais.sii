@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.lhasa.calais {
-	price: 71
-	time: 2010
-	distance: 1507
-}
-}

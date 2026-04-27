@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.praia.porto_ingles {
-	price: 6
-	time: 60
-	distance: 44
-}
-}

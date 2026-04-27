@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.ustnera.khonuu {
-	price: 18
-	time: 401
-	distance: 300
-}
-}
-

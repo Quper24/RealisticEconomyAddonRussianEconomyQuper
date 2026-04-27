@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.brionne.mulhouse {
-	price: 35
-	time: 928
-	distance: 695
-}
-}
-

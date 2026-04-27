@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.rhodes.lemesos {
-	price: 20
-	time: 472
-	distance: 353
-}
-}

@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.keelung.dover {
-	price: 71
-	time: 2010
-	distance: 1507
-}
-}
-

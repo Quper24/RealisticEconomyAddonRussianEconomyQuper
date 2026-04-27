@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.santa.bonifacio {
-	price: 5
-	time: 28
-	distance: 20
-}
-}
-

@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.nayba.tiksi {
-	price: 11
-	time: 201
-	distance: 150
-}
-}
-

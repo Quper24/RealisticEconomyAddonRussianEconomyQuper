@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.durres.split{
-	price: 25
-	time: 601
-	distance: 450
-}
-}
-

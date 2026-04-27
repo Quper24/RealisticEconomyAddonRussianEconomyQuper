@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.genova.olbia {
-	price: 41
-	time: 1081
-	distance: 810
-}
-}
-
