@@ -1,0 +1,14 @@
+cargo_data: cargo.empty_palet
+{
+	name: "@@cn_empty_palettes@@"
+	fragility: 0.15
+	maximum_distance: 800
+	group[]: containers
+	volume: 2.6
+	mass: 700
+	unit_reward_per_km: 0.523
+	unit_load_time: 78
+	body_types[]: curtainside
+	body_types[]: dryvan
+	body_types[]: refrigerated
+}

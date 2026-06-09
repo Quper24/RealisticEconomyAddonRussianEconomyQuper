@@ -1,0 +1,14 @@
+cargo_data: cargo.emp_wine_bot
+{
+	name: "@@cn_empty_wine_bottles@@"
+	fragility: 0.71
+	group[]: containers
+	volume: 1.5
+	mass: 422.5
+	unit_reward_per_km: 0.64
+	unit_load_time: 78
+	body_types[]: curtainside
+	body_types[]: dryvan
+	body_types[]: refrigerated
+	body_types[]: insulated
+}

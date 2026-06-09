@@ -1,0 +1,11 @@
+cargo_data: cargo.sugar_b
+{
+	name: "@@cn_sugar@@"
+	fragility: 0.3
+	group[]: bulk
+	volume: 1
+	mass: 1700
+	unit_reward_per_km: 0.607
+	unit_load_time: 150
+	body_types[]: silo
+}

@@ -1,0 +1,13 @@
+cargo_data: cargo.dryers
+{
+	name: "@@cn_dryers@@"
+	fragility: 0.75
+	group[]: containers
+	volume: 2.6
+	mass: 650
+	unit_reward_per_km: 0.655
+	unit_load_time: 78
+	body_types[]: curtainside
+	body_types[]: dryvan
+	body_types[]: refrigerated
+}

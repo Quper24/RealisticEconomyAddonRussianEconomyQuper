@@ -1,0 +1,11 @@
+cargo_data: cargo.honey
+{
+	name: "@@cn_honey@@"
+	fragility: 0.4
+	group[]: containers
+	volume: 2.4
+	mass: 613.4
+	unit_reward_per_km: 0.626
+	unit_load_time: 78
+	body_types[]: refrigerated
+}

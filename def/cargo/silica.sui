@@ -1,0 +1,11 @@
+cargo_data: cargo.silica
+{
+	name: "@@cn_silica@@"
+	fragility: 0.15
+	group[]: bulk
+	volume: 1
+	mass: 1300
+	unit_reward_per_km: 0.602
+	unit_load_time: 150
+	body_types[]: silo
+}

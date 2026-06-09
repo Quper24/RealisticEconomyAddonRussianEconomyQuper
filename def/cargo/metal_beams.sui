@@ -1,0 +1,14 @@
+cargo_data: cargo.metal_beams
+{
+	name: "@@cn_metal_beams@@"
+	fragility: 0.15
+	group[]: construction
+	volume: 43
+	mass: 11500
+	unit_reward_per_km: 9.505
+	unit_load_time: 240
+	body_types[]: flatbed
+	body_types[]: flatbed_cont
+	body_types[]: flatbed_brck
+	body_types[]: lowbed
+}

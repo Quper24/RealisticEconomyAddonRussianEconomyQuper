@@ -1,0 +1,14 @@
+cargo_data: cargo.tractors
+{
+	name: "@@cn_tractors@@"
+	fragility: 0.69
+	valuable: true
+	group[]: machinery
+	volume: 40
+	mass: 8500
+	unit_reward_per_km: 10.63
+	unit_load_time: 1500
+	body_types[]: lowboy
+	body_types[]: lowbed
+	body_types[]: flatbed
+}
