@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.jakarta.dover {
-	price: 605
+	price: 907
 	time: 18001
 	distance: 13500
 	

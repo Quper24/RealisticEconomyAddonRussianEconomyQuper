@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.klang.jakarta {
-	price: 57
+	price: 86
 	time: 1584
 	distance: 1187
 }

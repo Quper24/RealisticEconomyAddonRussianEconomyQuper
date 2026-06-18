@@ -2,7 +2,7 @@ SiiNunit
 {
 
 ferry_connection : conn.oslo.anping {
-	price: 17
+	price: 26
 	time: 388
 	distance: 290
 

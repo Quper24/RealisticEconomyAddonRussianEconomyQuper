@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.iqaluit.nanortalik{
-	price: 27
+	price: 40
 	time: 668
 	distance: 500
 

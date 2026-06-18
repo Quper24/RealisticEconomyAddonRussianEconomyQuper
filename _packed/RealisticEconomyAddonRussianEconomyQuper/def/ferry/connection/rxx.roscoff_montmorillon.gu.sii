@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.roscoff.montmorillon {
-	price: 9
+	price: 13
 	time: 134
 	distance: 100
 

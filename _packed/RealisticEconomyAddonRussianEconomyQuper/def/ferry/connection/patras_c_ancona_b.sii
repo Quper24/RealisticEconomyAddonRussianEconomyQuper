@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.patras_c.ancona_b {
-	price: 47
+	price: 71
 	time: 1281
 	distance: 960
 

@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.bognes.skarberget{
-	price: 5
+	price: 7
 	time: 10
 	distance: 7
 

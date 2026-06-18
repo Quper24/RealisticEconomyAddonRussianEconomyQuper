@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.thessaloniki.ashdod{
-	price: 70
+	price: 105
 	time: 1974
 	distance: 1480
 

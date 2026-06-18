@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.mogadishu.haifa {
-	price: 160
+	price: 240
 	time: 4668
 	distance: 3500
 

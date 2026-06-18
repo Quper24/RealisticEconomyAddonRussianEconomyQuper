@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.chios.mitilini {
-	price: 10 # approx based on rhodes/athens
+	price: 15 # approx based on rhodes/athens
 	time: 161
 	distance: 120
 

@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.varna.poti{
-	price: 55
+	price: 82
 	time: 1508
 	distance: 1130
 

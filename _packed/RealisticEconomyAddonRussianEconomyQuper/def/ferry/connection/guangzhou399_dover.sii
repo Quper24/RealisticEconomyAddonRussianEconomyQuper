@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.guangzhou399.dover {
-	price: 71
+	price: 107
 	time: 2010
 	distance: 1507
 }

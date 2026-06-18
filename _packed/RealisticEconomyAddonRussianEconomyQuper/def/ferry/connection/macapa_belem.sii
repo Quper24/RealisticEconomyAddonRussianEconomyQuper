@@ -2,7 +2,7 @@ SiiNunit
 {
 ferry_connection: conn.macapa.belem
 {
-	price: 18
+	price: 27
 	time: 401
 	distance: 300
 

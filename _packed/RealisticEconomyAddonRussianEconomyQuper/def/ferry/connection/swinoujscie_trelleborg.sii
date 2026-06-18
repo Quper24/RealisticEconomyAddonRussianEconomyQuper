@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.swinoujscie.trelleborg {
-	price: 13
+	price: 19
 	time: 241
 	distance: 180
 

@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.janmay.bergen {
-	price: 57
+	price: 86
 	time: 1590
 	distance: 1192
 }

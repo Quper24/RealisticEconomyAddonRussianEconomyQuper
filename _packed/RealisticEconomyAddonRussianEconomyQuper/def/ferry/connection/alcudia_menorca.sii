@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.alcudia.menorca{
-	price: 5
+	price: 8
 	time: 28
 	distance: 20
 

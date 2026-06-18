@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.halsa.kanestraum{
-	price: 5
+	price: 7
 	time: 9
 	distance: 6
 }

@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.trabzon.sevas {
-	price: 33 #2.6*km
+	price: 49 #2.6*km
 	time: 857  #1.7*km
 	distance: 642 
 

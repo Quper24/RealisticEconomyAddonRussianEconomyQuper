@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.piraeus.moroni_km {
-	price: 264
+	price: 396
 	time: 7798
 	distance: 5848
 

@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.genova.palermo {
-	price: 41
+	price: 61
 	time: 1081
 	distance: 810
 }

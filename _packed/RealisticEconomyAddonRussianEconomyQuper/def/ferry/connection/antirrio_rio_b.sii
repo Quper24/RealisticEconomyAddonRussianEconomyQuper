@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.antirrio.rio_b {
-	price: 5
+	price: 7
 	time: 6
 	distance: 4
 }

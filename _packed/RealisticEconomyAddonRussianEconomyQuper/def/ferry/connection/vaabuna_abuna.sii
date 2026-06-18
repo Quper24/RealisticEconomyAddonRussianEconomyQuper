@@ -2,7 +2,7 @@ SiiNunit
 {
 ferry_connection: conn.vaabuna.abuna
 {
-	price: 5
+	price: 7
 	time: 2
 	distance: 1
 

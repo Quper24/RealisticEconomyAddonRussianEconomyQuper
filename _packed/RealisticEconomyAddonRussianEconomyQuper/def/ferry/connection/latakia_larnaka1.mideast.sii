@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.latakia.larnaka1{
-	price: 14
+	price: 20
 	time: 277
 	distance: 207
 

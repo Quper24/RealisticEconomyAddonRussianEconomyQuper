@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.ventspils.visbi {
-	price: 16
+	price: 23
 	time: 338
 	distance: 253
 }

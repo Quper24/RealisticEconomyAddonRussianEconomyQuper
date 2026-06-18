@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.yakutsk.helsinki {
-	price: 5
+	price: 7
 	time: 2
 	distance: 1
 }

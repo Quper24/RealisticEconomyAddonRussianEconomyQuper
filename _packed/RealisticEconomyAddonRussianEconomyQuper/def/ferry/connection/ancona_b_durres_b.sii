@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.ancona_b.durres_b {
-	price: 30
+	price: 45
 	time: 774
 	distance: 580
 	

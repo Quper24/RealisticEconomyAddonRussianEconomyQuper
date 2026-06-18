@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.nadim.v4 {
-	price: 158
+	price: 237
 	time: 4601
 	distance: 3450
 }

@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.baku.turkmenbashi{
-	price: 16
+	price: 24
 	time: 357
 	distance: 267
 }

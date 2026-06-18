@@ -1,7 +1,7 @@
 SiiNunit
 {
 ferry_connection : conn.kapellskar.mariehamn{
-	price: 10
+	price: 15
 	time: 161
 	distance: 120
 
