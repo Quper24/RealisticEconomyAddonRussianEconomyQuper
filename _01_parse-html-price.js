@@ -3,7 +3,7 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 
 // URL к твоему локальному серверу
-const url = "http:///192.168.0.7:8081";
+const url = "http://192.168.0.14:8081/";
 
 // Путь для сохранения JSON
 const outputFile = "./diesel_prices.json";

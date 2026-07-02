@@ -10,7 +10,7 @@ country_data : country.data.norway
 
 	pos: (-2000, 0, -59000)
 
-	fuel_price: 1.49
+	fuel_price: 1.635
 
 	lights_mandatory: true
 	driving_tired_offence: true
