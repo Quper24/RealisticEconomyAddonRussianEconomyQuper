@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.skurilsk.magadan {
-	price: 36
-	time: 592
+	price: 60
+	time: 1064
 	distance: 443
 
 }

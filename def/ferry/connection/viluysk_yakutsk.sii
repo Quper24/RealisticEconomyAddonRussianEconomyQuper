@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.viluysk.yakutsk {
+	price: 71
+	time: 1297
+	distance: 540
+}
+}
+

@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.pasada.pasfarm {
-	price: 7
-	time: 2
-	distance: 1
-}
-}
-

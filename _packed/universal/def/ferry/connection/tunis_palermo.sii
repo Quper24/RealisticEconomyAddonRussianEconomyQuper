@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.tunis.palermo {
-	price: 24
-	time: 342
+	price: 37
+	time: 615
 	distance: 256
 
 	# NODE POSITIONS #######    x*256 , 0,   z*256

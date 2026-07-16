@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.haifa.mogadishu {
-	price: 240
-	time: 4668
+	price: 427
+	time: 8401
 	distance: 3500
 
 	# NODE POSITIONS #######    x*256 , 0,   z*256

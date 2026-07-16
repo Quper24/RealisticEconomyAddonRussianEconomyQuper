@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.yaransk.tunnel_f {
-	price: 140
-	time: 2668
-	distance: 2000
-}
-}

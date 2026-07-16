@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.daru.bangao {
-	price: 247
-	time: 4801
+	price: 439
+	time: 8641
 	distance: 3600
 }
 }

@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.constanta.poti{
-	price: 78
-	time: 1437
+	price: 136
+	time: 2585
 	distance: 1077
 
 }

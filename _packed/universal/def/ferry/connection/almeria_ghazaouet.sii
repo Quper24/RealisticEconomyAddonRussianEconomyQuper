@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.almeria.ghazaouet {
-	price: 20
-	time: 280
+	price: 32
+	time: 502
 	distance: 209
 
 }

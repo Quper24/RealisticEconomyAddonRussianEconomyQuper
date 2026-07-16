@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.tazovskiy.messoyakha {
-	price: 8
-	time: 28
-	distance: 20
-}
-}
-

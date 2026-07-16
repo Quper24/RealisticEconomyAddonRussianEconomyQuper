@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.male.calais {
-	price: 240
-	time: 4668
-	distance: 3500
-}
-}
-

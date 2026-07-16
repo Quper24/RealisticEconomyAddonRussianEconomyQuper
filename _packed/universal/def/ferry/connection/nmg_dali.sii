@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.nmg.dali {
-	price: 247        # 单位：欧元
-	time: 4801         # 单位：分钟
+	price: 439        # 单位：欧元
+	time: 8641         # 单位：分钟
 	distance: 3600      # 单位：千米
 
 	connection_positions[0]: (72087808, 0, -54595072)  

@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.girne.silifke {
-    price: 15
-    time: 161
-    distance: 120
-}
-}

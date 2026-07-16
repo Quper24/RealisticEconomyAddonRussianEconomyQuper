@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.napoli.barcelona {
-	price: 77
-	time: 1401
+	price: 133
+	time: 2521
 	distance: 1050
 
 	# NODE POSITIONS #######    x*256 , 0,   z*256

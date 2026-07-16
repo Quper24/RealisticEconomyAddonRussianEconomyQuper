@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.nizhniy.yakutsk {
-	price: 7
-	time: 9
-	distance: 6
-}
-}
-

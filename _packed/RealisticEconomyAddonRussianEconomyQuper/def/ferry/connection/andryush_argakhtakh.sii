@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.andryush.argakhtakh {
-	price: 14
-	time: 141
-	distance: 105
-}
-}
-

@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.hirtshals.seydisfjord{
-	price: 125
-	time: 2370
+	price: 220
+	time: 4265
 	distance: 1777
 
 	# NODE POSITIONS #######    x*256  , 0,   z*256

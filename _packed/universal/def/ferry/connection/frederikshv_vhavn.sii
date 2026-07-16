@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.frederikshv.vhavn {
-	price: 9
-	time: 41
+	price: 10
+	time: 73
 	distance: 30
 
 	# NODE POSITIONS #######   x*256 , 0,   z*256

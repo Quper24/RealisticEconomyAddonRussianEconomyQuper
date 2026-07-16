@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.serayu.anping {
-	price: 107
-	time: 2010
-	distance: 1507
-}
-}
-

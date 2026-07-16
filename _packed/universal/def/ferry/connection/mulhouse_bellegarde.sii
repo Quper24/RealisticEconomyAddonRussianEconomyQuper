@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.mulhouse.bellegarde {
-	price: 28
-	time: 428
+	price: 45
+	time: 769
 	distance: 320
 }
 }

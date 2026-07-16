@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.heltermaa.rohukula{
-	price: 8
-	time: 30
+	price: 9
+	time: 53
 	distance: 22
 
 	# NODE POSITIONS #######    x*256 , 0,   z*256

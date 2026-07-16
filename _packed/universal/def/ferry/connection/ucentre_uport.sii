@@ -2,7 +2,7 @@ SiiNunit
 {
 ferry_connection : conn.ucentre.uport {
 	price: 7
-	time: 4
+	time: 5
 	distance: 2
 }
 }

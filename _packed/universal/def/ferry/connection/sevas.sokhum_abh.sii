@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.sevas.sokhum_abh {
+	price: 79 #2.6*km
+	time: 1448  #1.7*km
+	distance: 603 
+
+}
+}
+

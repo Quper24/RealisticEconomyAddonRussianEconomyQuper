@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.palermo.cagliari {
-	price: 35
-	time: 561
+	price: 57
+	time: 1009
 	distance: 420
 
 	# NODE POSITIONS #######    x*256 , 0,   z*256

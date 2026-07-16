@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.lenskoe.mezen {
-	price: 23
-	time: 334
+	price: 37
+	time: 601
 	distance: 250
 }
 }

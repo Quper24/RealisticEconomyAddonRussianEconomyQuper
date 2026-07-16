@@ -3,7 +3,7 @@ SiiNunit
 ferry_connection: conn.laurentgfr.albina
 {
 	price: 7
-	time: 5
+	time: 8
 	distance: 3
 
 }

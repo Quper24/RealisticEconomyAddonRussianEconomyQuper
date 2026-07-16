@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.erhai.roscoff {
-	price: 13
-	time: 134
+	price: 19
+	time: 241
 	distance: 100
 
 

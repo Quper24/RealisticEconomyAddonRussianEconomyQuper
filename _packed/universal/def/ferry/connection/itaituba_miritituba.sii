@@ -3,7 +3,7 @@ SiiNunit
 ferry_connection: conn.itaituba.miritituba
 {
 	price: 7
-	time: 2
+	time: 3
 	distance: 1
 
 }

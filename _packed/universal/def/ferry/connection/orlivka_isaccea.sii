@@ -2,7 +2,7 @@ SiiNunit
 {
 ferry_connection : conn.orlivka.isaccea {
 	price: 7
-	time: 2
+	time: 3
 	distance: 1
 
 }

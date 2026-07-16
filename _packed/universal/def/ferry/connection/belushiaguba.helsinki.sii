@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.belushiaguba.helsinki{
-	price: 123
-	time: 2334
+	price: 217
+	time: 4201
 	distance: 1750
 }
 

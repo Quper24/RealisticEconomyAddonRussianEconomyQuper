@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.yeji_1.nouakchott{
-	price: 180
-	time: 3462
+	price: 318
+	time: 6231
 	distance: 2596
 
 }

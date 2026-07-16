@@ -1,7 +1,0 @@
-SiiNunit{
-  ferry_connection : conn.kirov.tallinn {
-	price: 113
-	time: 2128
-	distance: 1595
-}
-}

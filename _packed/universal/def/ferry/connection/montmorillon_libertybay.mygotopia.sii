@@ -2,7 +2,7 @@ SiiNunit
 {
 ferry_connection : conn.montmorillon.libertybay {
 	price: 8
-	time: 21
+	time: 37
 	distance: 15
 
     # NODE POSITIONS #######    x*256 , 0,   z*256

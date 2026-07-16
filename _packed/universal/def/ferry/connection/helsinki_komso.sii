@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.helsinki.komso {
-	price: 787
-	time: 15601
+	price: 1411
+	time: 28081
 	distance: 11700
 }
 }

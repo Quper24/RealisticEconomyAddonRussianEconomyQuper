@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.yakutsk.drovqnoi{
-	price: 239
-	time: 4641
+	price: 424
+	time: 8353
 	distance: 3480
 
 	# NODE POSITIONS #######    x*256 , 0,   z*256

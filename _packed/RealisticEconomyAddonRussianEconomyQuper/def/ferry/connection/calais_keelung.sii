@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.calais.keelung {
-	price: 107
-	time: 2010
-	distance: 1507
-}
-}
-

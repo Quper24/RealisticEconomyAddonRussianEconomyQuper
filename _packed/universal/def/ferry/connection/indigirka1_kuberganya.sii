@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.indigirka1.kuberganya {
-	price: 13
-	time: 129
+	price: 18
+	time: 231
 	distance: 96
 }
 }

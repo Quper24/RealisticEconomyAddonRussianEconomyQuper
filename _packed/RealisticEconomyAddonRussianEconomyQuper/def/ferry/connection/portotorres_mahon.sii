@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.portotorres.mahon {
-	price: 44
-	time: 744
-	distance: 557
-}
-}

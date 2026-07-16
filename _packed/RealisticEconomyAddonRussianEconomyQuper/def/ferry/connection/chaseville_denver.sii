@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.chaseville.denver {
-	price: 7
-	time: 5
-	distance: 3
-}
-}
-

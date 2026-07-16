@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.bata.saotome {
-	price: 41
-	time: 684
-	distance: 512
-}
-}
-

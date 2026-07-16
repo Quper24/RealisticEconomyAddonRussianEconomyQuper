@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.collonges.mulhouse {
-	price: 28
-	time: 428
-	distance: 320
-}
-}
-

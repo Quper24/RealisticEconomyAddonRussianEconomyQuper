@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.moskalvo_sak.calais{
+	price: 950
+	time: 18872
+	distance: 7863
+}
+
+}
+

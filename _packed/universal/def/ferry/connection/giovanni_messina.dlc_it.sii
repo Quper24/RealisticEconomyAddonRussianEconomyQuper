@@ -2,7 +2,7 @@ SiiNunit
 {
 ferry_connection : conn.giovanni.messina {
 	price: 7
-	time: 12
+	time: 20
 	distance: 8
 	
 	connection_positions[0]: (4873996, 0, 18004852)

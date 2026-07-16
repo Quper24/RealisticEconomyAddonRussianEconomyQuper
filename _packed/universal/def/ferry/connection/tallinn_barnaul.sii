@@ -1,7 +1,7 @@
 SiiNunit{
   ferry_connection : conn.tallinn.barnaul {
-	price: 318
-	time: 6221
+	price: 566
+	time: 11197
 	distance: 4665
 }
 }

@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.zonguldak.poti {
-	price: 11
-	time: 88
+	price: 14
+	time: 157
 	distance: 65
 }
 }

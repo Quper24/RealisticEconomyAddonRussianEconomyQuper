@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.douglas.belfast{
-	price: 13
-	time: 134
+	price: 19
+	time: 241
 	distance: 100
 
 	# NODE POSITIONS #######    x*256  , 0,   z*256

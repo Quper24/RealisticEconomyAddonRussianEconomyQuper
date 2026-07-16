@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.larne.cairnryan{
-	price: 10
-	time: 74
+	price: 13
+	time: 133
 	distance: 55
 
 	# NODE POSITIONS #######    x*256  , 0,   z*256

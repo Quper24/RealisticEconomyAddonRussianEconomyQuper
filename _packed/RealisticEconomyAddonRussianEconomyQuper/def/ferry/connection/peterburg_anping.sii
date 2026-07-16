@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.peterburg.anping {
-	price: 127
-	time: 2401
-	distance: 1800
-}
-}

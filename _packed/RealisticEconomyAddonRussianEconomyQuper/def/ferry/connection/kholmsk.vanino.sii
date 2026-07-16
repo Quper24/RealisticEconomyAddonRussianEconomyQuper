@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.kholmsk.vanino {
-	price: 24
-	time: 350
-	distance: 262
-}
-}
-

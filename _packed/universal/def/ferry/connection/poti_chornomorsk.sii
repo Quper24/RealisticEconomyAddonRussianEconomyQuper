@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.poti.chornomorsk {
-	price: 75
-	time: 1368
+	price: 130
+	time: 2461
 	distance: 1025
 
 	# NODE POSITIONS #######    x*256 , 0,   z*256

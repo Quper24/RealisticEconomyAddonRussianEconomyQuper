@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.moskalvo_sak.gdansk{
+	price: 847
+	time: 16801
+	distance: 7000
+}
+
+}
+

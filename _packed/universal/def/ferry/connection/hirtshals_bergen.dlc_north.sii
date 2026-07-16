@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.hirtshals.bergen {
-	price: 46
-	time: 788
+	price: 77
+	time: 1417
 	distance: 590
 
 	# NODE POSITIONS #######    x*256  , 0,   z*256

@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.valletta.pozzallo{
-	price: 14
-	time: 148
+	price: 20
+	time: 265
 	distance: 110
 
 	# NODE POSITIONS #######   x*256 , 0,   z*256

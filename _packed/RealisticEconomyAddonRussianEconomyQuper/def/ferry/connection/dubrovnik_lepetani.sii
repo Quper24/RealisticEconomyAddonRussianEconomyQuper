@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.dubrovnik.lepetani{
-	price: 12
-	time: 109
-	distance: 81
-}
-}
-

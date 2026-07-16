@@ -1,0 +1,10 @@
+SiiNunit
+{
+ferry_connection : conn.sokhum_abh.chornomorsk {
+	price: 130
+	time: 2473
+	distance: 1030
+	
+}
+}
+

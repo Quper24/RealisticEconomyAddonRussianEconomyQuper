@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.valencia.wuqia {
+	price: 848
+	time: 16837
+	distance: 7015
+}
+}
+

@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.severodvinsk.labit {
-	price: 207
-	time: 4001
-	distance: 3000
-}
-}
-

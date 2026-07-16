@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.kapellskar.paldiski {
-	price: 25
-	time: 380
+	price: 41
+	time: 682
 	distance: 284
 
 	# NODE POSITIONS #######    x*256 , 0,   z*256

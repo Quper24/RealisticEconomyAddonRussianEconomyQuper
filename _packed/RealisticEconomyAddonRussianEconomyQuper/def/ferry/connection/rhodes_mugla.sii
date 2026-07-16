@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.rhodes.mugla{
-	price: 13
-	time: 134
-	distance: 100
-}
-}

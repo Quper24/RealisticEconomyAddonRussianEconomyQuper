@@ -2,8 +2,8 @@ SiiNunit
 {
 ferry_connection : conn.igoumenitsb.argostoli
 	{
-	price: 23 # approx based on rhodes/athens
-	time: 321
+	price: 35 # approx based on rhodes/athens
+	time: 577
 	distance: 240
 
 connection_positions[0]: (10072718, 0, 16102495)

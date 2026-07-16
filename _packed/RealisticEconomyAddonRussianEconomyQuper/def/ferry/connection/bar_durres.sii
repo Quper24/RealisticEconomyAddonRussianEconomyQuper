@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.bar.durres {
-	price: 13
-	time: 124
-	distance: 92
-}
-}

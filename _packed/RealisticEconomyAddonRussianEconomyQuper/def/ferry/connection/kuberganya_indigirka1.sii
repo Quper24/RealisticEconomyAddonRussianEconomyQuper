@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.kuberganya.indigirka1 {
-	price: 13
-	time: 129
-	distance: 96
-}
-}
-

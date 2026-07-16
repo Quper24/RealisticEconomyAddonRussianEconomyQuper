@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.calais.santiago_c {
-	price: 524
-	time: 10345
-	distance: 7758
-}
-}
-

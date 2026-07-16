@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.magyichaung.sittwe {
-	price: 9
-	time: 41
-	distance: 30
-}
-}
-

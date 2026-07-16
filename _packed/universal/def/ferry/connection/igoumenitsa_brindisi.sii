@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.igoumenitsa.brindisi{
-	price: 22
-	time: 312
+	price: 34
+	time: 560
 	distance: 233
 
 

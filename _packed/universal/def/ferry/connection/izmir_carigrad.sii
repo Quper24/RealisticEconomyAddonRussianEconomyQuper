@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.izmir.carigrad {
-	price: 19
-	time: 241
+	price: 28
+	time: 433
 	distance: 180
 }
 }

@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.vakkanai.dalian{
-	price: 128
-	time: 2421
+	price: 224
+	time: 4357
 	distance: 1815
 }
 

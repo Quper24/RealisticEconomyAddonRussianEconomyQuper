@@ -1,8 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.nyale.longyearbyen {
-	price: 28
-	time: 424
-	distance: 317
-}
-}

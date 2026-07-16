@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.aldan2a.aldan1a {
-	price: 7
-	time: 14
-	distance: 10
-}
-}
-

@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.plymouth.cork {
-	price: 28
-	time: 428
-	distance: 320
-}
-}
-

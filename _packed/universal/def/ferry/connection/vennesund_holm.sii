@@ -2,7 +2,7 @@ SiiNunit
 {
 ferry_connection : conn.vennesund.holm {
 	price: 7
-	time: 9
+	time: 15
 	distance: 6
 
 	# NODE POSITIONS #######    x*256  , 0,   z*256

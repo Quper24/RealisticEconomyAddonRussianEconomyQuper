@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.korsakov.vakkanai {
-	price: 17
-	time: 201
+	price: 25
+	time: 361
 	distance: 150
 }
 }

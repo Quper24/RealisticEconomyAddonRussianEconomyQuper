@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.europoort.harwich {
-	price: 20
-	time: 277
-	distance: 207
-}
-}
-

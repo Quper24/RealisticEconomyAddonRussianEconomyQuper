@@ -1,9 +1,0 @@
-SiiNunit
-{
-ferry_connection : conn.hornsund.nyale {
-	price: 28
-	time: 424
-	distance: 317
-}
-}
-

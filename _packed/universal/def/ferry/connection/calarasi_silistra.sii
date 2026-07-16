@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.calarasi.silistra {
-	price: 7
-	time: 20
+	price: 8
+	time: 34
 	distance: 14
 
 	# NODE POSITIONS #######     x*256 , 0,   z*256

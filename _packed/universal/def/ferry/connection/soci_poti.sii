@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.soci.poti{
-	price: 19
-	time: 248
+	price: 29
+	time: 445
 	distance: 185
 }
 

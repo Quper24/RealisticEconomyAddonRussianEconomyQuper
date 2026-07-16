@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.algeciras.tangier {
-	price: 9
-	time: 52
+	price: 11
+	time: 92
 	distance: 38
 
 }

@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.hirtshals.kristiansand {
-	price: 16
-	time: 194
+	price: 24
+	time: 349
 	distance: 145
 
 	# NODE POSITIONS #######    x*256 , 0,   z*256

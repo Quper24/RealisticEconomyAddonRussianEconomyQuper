@@ -1,7 +1,7 @@
 SiiNunit{
   ferry_connection : conn.tallinn.urjum {
-	price: 146
-	time: 2793
+	price: 258
+	time: 5026
 	distance: 2094
 }
 }

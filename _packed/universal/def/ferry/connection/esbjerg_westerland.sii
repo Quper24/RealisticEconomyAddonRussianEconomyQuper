@@ -1,0 +1,9 @@
+SiiNunit
+{
+ferry_connection : conn.esbjerg.westerland {
+	price: 18
+	time: 238
+	distance: 99
+}
+}
+

@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.genova.tunis {
-	price: 66
-	time: 1189
+	price: 113
+	time: 2139
 	distance: 891
 
 }

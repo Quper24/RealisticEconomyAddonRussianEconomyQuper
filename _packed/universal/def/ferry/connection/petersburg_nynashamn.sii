@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.petersburg.nynashamn {
-	price: 53
-	time: 921
+	price: 89
+	time: 1657
 	distance: 690
 }
 }
