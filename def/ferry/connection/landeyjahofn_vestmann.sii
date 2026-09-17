@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.landeyjahofn.vestmann{
-	price: 8
-	time: 32
+	price: 5
+	time: 47
 	distance: 13
 
 	# NODE POSITIONS #######    x*256  , 0,   z*256

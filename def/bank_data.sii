@@ -3,15 +3,15 @@ SiiNunit
 
 	bank_data : bank.data.storage
 	{
-		min_after_loan_repay:	-1000
+		min_after_loan_repay:	0
 
 		loan_offers[]: bank.data.loan1
 		loan_offers[]: bank.data.loan2
 		loan_offers[]: bank.data.loan3
 		loan_offers[]: bank.data.loan4
 
-		overdraft_duration:	28	# days
-		overdraft_warn_day:	7	# starting on 3rd day
+		overdraft_duration:	14	# days
+		overdraft_warn_day:	5	# starting on 3rd day
 
 	}
 

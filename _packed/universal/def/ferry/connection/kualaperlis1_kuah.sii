@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.kualaperlis1.kuah {
-	price: 10
-	time: 77
+	price: 8
+	time: 85
 	distance: 32
 }
 }

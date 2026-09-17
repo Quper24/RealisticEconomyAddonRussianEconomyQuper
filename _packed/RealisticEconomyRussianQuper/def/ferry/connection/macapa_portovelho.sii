@@ -2,8 +2,8 @@ SiiNunit
 {
 ferry_connection: conn.macapa.portovelho
 {
-	price: 367
-	time: 7201
+	price: 602
+	time: 6021
 	distance: 3000
 
 }

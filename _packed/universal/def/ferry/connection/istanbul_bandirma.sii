@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.istanbul.bandirma {
-	price: 13
-	time: 137
+	price: 14
+	time: 135
 	distance: 57
 }
 }

@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.sokhum_abh.trabzon {
-	price: 45 #2.6*km
-	time: 769  #1.7*km
+	price: 68 #2.6*km
+	time: 661  #1.7*km
 	distance: 320 
 
 }

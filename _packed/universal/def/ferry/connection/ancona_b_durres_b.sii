@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.ancona_b.durres_b {
-	price: 76
-	time: 1393
+	price: 119
+	time: 1181
 	distance: 580
 	
 	# NODE POSITIONS #######   x*256  , 0,  z*256

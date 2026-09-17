@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.tunnel_db.tunnel_c {
-	price: 349
-	time: 6845
+	price: 572
+	time: 5725
 	distance: 2852
 }
 }

@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.anping.serayu {
-	price: 187
-	time: 3617
+	price: 305
+	time: 3035
 	distance: 1507
 }
 }

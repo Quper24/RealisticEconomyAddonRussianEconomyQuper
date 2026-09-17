@@ -1,5 +1,6 @@
 SiiNunit
 {
+	#quper
 	vehicle_damage_data : .damage_data
 	{
 		# damage dealt to truck and trailer

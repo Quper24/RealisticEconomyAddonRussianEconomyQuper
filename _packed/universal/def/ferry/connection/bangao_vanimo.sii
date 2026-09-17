@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.bangao.vanimo {
-	price: 314
-	time: 6145
+	price: 515
+	time: 5141
 	distance: 2560
 }
 }

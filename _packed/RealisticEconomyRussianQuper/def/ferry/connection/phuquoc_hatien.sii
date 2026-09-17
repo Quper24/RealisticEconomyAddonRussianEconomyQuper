@@ -2,7 +2,7 @@ SiiNunit
 {
 ferry_connection : conn.phuquoc.hatien {
 	price: 11
-	time: 97
+	time: 101
 	distance: 40
 }
 }

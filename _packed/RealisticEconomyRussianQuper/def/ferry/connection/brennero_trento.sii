@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.brennero.trento {
-	price: 18
-	time: 236
+	price: 23
+	time: 217
 	distance: 98
 }
 }

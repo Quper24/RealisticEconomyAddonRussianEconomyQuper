@@ -3,8 +3,10 @@ const path = require("path");
 
 // Функция для расчета времени парома
 function calculateFerryTime(distance) {
-  const maxSpeed = 25; // км/ч (крейсерская скорость)
+  const maxSpeed = 30; // км/ч (крейсерская скорость)
   const acceleration = 0.2; // м/с² (ускорение и торможение)
+
+  const minTime = 20; // Минимальное время парома: 20 минут
 
   // Перевод скорости в м/с
   const maxSpeedMS = (maxSpeed * 1000) / 3600;
@@ -17,28 +19,37 @@ function calculateFerryTime(distance) {
 
   // Проверка, достаточно ли расстояния для выхода на крейсерскую скорость
   if (distance <= 2 * accelDistance) {
-    // Если расстояние слишком мало, то считаем, что паром не достигает крейсерской скорости
+    // Если расстояние слишком мало, то считаем,
+    // что паром не достигает крейсерской скорости
     const adjustedTime = Math.sqrt((2 * distance * 1000) / acceleration) / 60;
-    return Math.round(adjustedTime); // Округляем до целого числа
+
+    // Минимальное время — 20 минут
+    return Math.max(minTime, Math.round(adjustedTime));
   }
 
   // Расстояние на крейсерской скорости
   const cruiseDistance = distance - 2 * accelDistance;
 
   // Время на крейсерской скорости (t = s / v)
-  const cruiseTime = (cruiseDistance / maxSpeed) * 60; // в минутах
+  const cruiseTime = (cruiseDistance / maxSpeed) * 60;
 
   // Итоговое время
   const totalTime = accelTime * 2 + cruiseTime;
-  return Math.round(totalTime); // Округляем до целого числа
+
+  // Минимальное время — 20 минут
+  return Math.round(minTime + totalTime);
 }
 
 // Функция для расчета цены
 function calculatePrice(time) {
-  const basePrice = 6; // Минимальная цена
-  const pricePer20Minutes = 1; // Цена за каждые 20 минут
-  const additionalPrice = Math.ceil(time / 20); // Количество 20-минутных интервалов
-  return basePrice + additionalPrice;
+  const minPrice = 5; // Минимальная цена: $2
+  const pricePer30Minutes = 3; // +$3 за каждые следующие 30 минут
+
+  // Первый час стоит $2
+  // Каждые следующие 30 минут добавляют $1
+  const additionalIntervals = Math.max(0, Math.ceil((time - 60) / 30));
+
+  return minPrice + additionalIntervals * pricePer30Minutes;
 }
 
 // Чтение и обновление файлов
@@ -66,14 +77,19 @@ function processSiiFiles(directory) {
           return;
         }
 
-        // Извлекаем значение distance
-        const distanceMatch = data.match(/distance:\s*(\d+)/);
+        // Ищем distance независимо от пробелов:
+        // distance: 1
+        // distance : 1
+        // distance  :    1
+        const distanceMatch = data.match(/distance\s*:\s*(\d+(?:\.\d+)?)/);
+
         if (!distanceMatch) {
           console.warn(`В файле ${file} не найдено значение distance`);
           return;
         }
 
         const distance = parseFloat(distanceMatch[1]);
+
         if (isNaN(distance)) {
           console.warn(`Некорректное значение distance в файле ${file}`);
           return;
@@ -83,18 +99,32 @@ function processSiiFiles(directory) {
         const newTime = calculateFerryTime(distance);
         const newPrice = calculatePrice(newTime);
 
-        // Обновляем значения в тексте файла
-        let updatedData = data.replace(/price:\s*\d+/, `price: ${newPrice}`);
-        updatedData = updatedData.replace(/time:\s*\d+/, `time: ${newTime}`);
+        // Обновляем price, независимо от количества пробелов
+        let updatedData = data.replace(/price\s*:\s*\d+/, `price: ${newPrice}`);
+
+        // Обновляем time, независимо от количества пробелов
+        updatedData = updatedData.replace(/time\s*:\s*\d+/, `time: ${newTime}`);
+
+        // Нормализуем distance:
+        // distance : 1 -> distance: 1
+        // distance  :    1 -> distance: 1
+        updatedData = updatedData.replace(
+          /distance\s*:\s*(\d+(?:\.\d+)?)/,
+          `distance: ${distanceMatch[1]}`,
+        );
 
         // Сохраняем обновленные данные обратно в файл
         fs.writeFile(filePath, updatedData, "utf8", (err) => {
           if (err) {
-            console.error(`Ошибка при записи в файл ${file}:`, err);
+            console.error(`Ошибка при записи файла ${file}:`, err);
             return;
           }
+
           console.log(
-            `Файл ${file} успешно обновлен. Новые значения: price = ${newPrice}, time = ${newTime}`,
+            `Файл ${file} успешно обновлен. ` +
+              `distance = ${distance}, ` +
+              `price = ${newPrice}, ` +
+              `time = ${newTime}`,
           );
         });
       });
@@ -102,5 +132,5 @@ function processSiiFiles(directory) {
   });
 }
 
-// Запускаем обработку файлов в текущей директории
+// Запускаем обработку файлов
 processSiiFiles(path.join(__dirname, "def", "ferry", "connection"));

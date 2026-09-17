@@ -21,6 +21,13 @@ SiiNunit
 		compatible_versions[]: "1.59.*"
 	}
 
+
+	package_version_info : .160
+	{
+		package_name: "160_reareq"
+		compatible_versions[]: "1.60.*"
+	}
+
 	package_version_info : .universal
 	{
 		package_name: "universal"

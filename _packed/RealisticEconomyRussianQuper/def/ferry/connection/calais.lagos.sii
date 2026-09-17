@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.calais.lagos{
-	price: 607
-	time: 12001
+	price: 1004
+	time: 10021
 	distance: 5000
 }
 

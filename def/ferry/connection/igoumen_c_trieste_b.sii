@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.igoumen_c.trieste_b {
-	price: 130 # approx based on ancona/patras
-	time: 2461
+	price: 209 # approx based on ancona/patras
+	time: 2071
 	distance: 1025
 
 	# NODE POSITIONS #######   x*256  , 0,  z*256

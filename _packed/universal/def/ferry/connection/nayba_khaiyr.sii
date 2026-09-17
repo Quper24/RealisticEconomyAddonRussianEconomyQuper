@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.nayba.khaiyr {
-	price: 31
-	time: 481
+	price: 44
+	time: 421
 	distance: 200
 }
 }

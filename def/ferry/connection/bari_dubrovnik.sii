@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.bari.dubrovnik{
-	price: 31
-	time: 483
+	price: 44
+	time: 423
 	distance: 201
 
 	# NODE POSITIONS #######      x*256 , 0,   z*256

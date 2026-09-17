@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.jakarta.nampo{
-	price: 648
-	time: 12833
+	price: 1073
+	time: 10715
 	distance: 5347
 }
 }

@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.stromness.grutness {
-	price: 23
-	time: 325
+	price: 29
+	time: 291
 	distance: 135
 
 }

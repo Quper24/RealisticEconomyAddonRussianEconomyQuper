@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.thessaloniki.izmir{
-	price: 47
-	time: 819
+	price: 71
+	time: 703
 	distance: 341
 	
 

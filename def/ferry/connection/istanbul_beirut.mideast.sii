@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.istanbul.beirut{
-	price: 200
-	time: 3865
+	price: 326
+	time: 3241
 	distance: 1610
 
 	# NODE POSITIONS #######    x*256  , 0,  z*256

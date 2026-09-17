@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.stjons.plymouth {
-	price: 444
-	time: 8758
+	price: 731
+	time: 7319
 	distance: 3649
 
 

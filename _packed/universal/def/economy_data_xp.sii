@@ -1,5 +1,6 @@
 ﻿SiiNunit
 {
+	#quper
 	xp_level_data : economy.data.xp_levels
 	{
 		#

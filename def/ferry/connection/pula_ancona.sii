@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.pula.ancona{
-	price: 26
-	time: 394
+	price: 35
+	time: 349
 	distance: 164
 }
 }

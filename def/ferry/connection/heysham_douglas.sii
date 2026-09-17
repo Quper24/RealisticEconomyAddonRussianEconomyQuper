@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.heysham.douglas{
-	price: 20
-	time: 265
+	price: 26
+	time: 241
 	distance: 110
 
 	# NODE POSITIONS #######    x*256  , 0,   z*256

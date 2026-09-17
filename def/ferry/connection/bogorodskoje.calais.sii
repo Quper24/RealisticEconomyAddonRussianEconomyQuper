@@ -1,8 +1,8 @@
 SiiNunit
 {
 ferry_connection : conn.bogorodskoje.calais{
-	price: 856
-	time: 17000
+	price: 1418
+	time: 14187
 	distance: 7083
 }
 
